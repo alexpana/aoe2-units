@@ -22,7 +22,16 @@
     "accuracy": 0.8,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Archer_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Archer_(Age_of_Empires_II)",
+    "weak_against": [
+      "Skirmishers",
+      "Scout Cavalry",
+      "Eagle Scouts"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers"
+    ]
   },
   {
     "name": "Crossbowman",
@@ -47,7 +56,21 @@
     "accuracy": 0.85,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Crossbowman_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Crossbowman_(Age_of_Empires_II)",
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "Battering Rams",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Rattan Archers"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers"
+    ]
   },
   {
     "name": "Arbalester",
@@ -72,7 +95,21 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Arbalester"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Arbalester",
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Rattan Archers",
+      "Woad Raiders"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers"
+    ]
   },
   {
     "name": "Cavalry Archer",
@@ -97,7 +134,19 @@
     "accuracy": 0.5,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Cavalry_Archer_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Cavalry_Archer_(Age_of_Empires_II)",
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Mangonels",
+      "Scorpions",
+      "camel units",
+      "Rattan Archers"
+    ],
+    "strong_against": []
   },
   {
     "name": "Heavy Cavalry Archer",
@@ -122,7 +171,21 @@
     "accuracy": 0.5,
     "armor_melee": 1,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Heavy_Cavalry_Archer"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Heavy_Cavalry_Archer",
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Onagers",
+      "Scorpions",
+      "Camel Archers",
+      "Rattan Archers"
+    ],
+    "strong_against": []
   },
   {
     "name": "Genitour",
@@ -147,7 +210,19 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 3,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Genitour_(mounted)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Genitour_(mounted)",
+    "weak_against": [
+      "Camel Riders",
+      "Pikemen",
+      "siege units",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Eagle Warriors"
+    ],
+    "strong_against": [
+      "Archers",
+      "Cavalry Archers"
+    ]
   },
   {
     "name": "Elite Genitour",
@@ -172,7 +247,19 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 4,
-    "wiki_url": null
+    "wiki_url": null,
+    "weak_against": [
+      "Camel Riders",
+      "Pikemen",
+      "siege units",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Eagle Warriors"
+    ],
+    "strong_against": [
+      "Archers",
+      "Cavalry Archers"
+    ]
   },
   {
     "name": "Hand Cannoneer",
@@ -197,7 +284,18 @@
     "accuracy": 0.65,
     "armor_melee": 1,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Hand_Cannoneer"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Hand_Cannoneer",
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Onagers",
+      "cavalry",
+      "Huskarls",
+      "Condottieri"
+    ],
+    "strong_against": [
+      "Infantry"
+    ]
   },
   {
     "name": "Skirmisher",
@@ -222,7 +320,13 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 3,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Skirmisher_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Skirmisher_(Age_of_Empires_II)",
+    "weak_against": [
+      "siege units"
+    ],
+    "strong_against": [
+      "Archers"
+    ]
   },
   {
     "name": "Elite Skirmisher",
@@ -247,7 +351,13 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 4,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Skirmisher"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Skirmisher",
+    "weak_against": [
+      "siege units"
+    ],
+    "strong_against": [
+      "Archers"
+    ]
   },
   {
     "name": "Imperial Skirmisher",
@@ -272,7 +382,14 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 4,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Imperial_Skirmisher"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Imperial_Skirmisher",
+    "weak_against": [
+      "siege units"
+    ],
+    "strong_against": [
+      "Archers",
+      "Pikemen"
+    ]
   },
   {
     "name": "Slinger",
@@ -297,7 +414,20 @@
     "accuracy": 0.9,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)",
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "Huskarls",
+      "cavalry",
+      "Genitours",
+      "Rattan Archers"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers"
+    ]
   },
   {
     "name": "Condottiero",
@@ -322,7 +452,58 @@
     "accuracy": 1.0,
     "armor_melee": 1,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Condottiero"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Condottiero",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Boyars",
+      "Teutonic Knights",
+      "Samurai",
+      "Cataphracts",
+      "Jaguar Warriors"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "siege weapons",
+      "Bombard Towers",
+      "Bombard Cannons"
+    ]
+  },
+  {
+    "name": "Eagle Scout",
+    "key": "eagle_scout",
+    "type1": "Infantry",
+    "type2": "",
+    "building": "Barracks",
+    "age": "Dark",
+    "food": 0,
+    "wood": 0,
+    "gold": 0,
+    "total_cost": 0,
+    "build_time": 0,
+    "attack_speed": 2.0,
+    "delay": 0.0,
+    "movement_speed": 1.1,
+    "line_of_sight": 6,
+    "hp": 50,
+    "range_min": null,
+    "range": null,
+    "damage": 4,
+    "accuracy": 1.0,
+    "armor_melee": 0,
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Scout",
+    "weak_against": [
+      "Infantry"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Scout Cavalry",
+      "Archers"
+    ]
   },
   {
     "name": "Eagle Scout",
@@ -347,7 +528,15 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 2,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Scout"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Scout",
+    "weak_against": [
+      "Infantry"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Scout Cavalry",
+      "Archers"
+    ]
   },
   {
     "name": "Eagle Scout",
@@ -372,7 +561,15 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 2,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Scout"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Scout",
+    "weak_against": [
+      "Infantry"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Scout Cavalry",
+      "Archers"
+    ]
   },
   {
     "name": "Eagle Warrior",
@@ -397,7 +594,20 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 3,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Warrior"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Eagle_Warrior",
+    "weak_against": [
+      "Cataphracts",
+      "Boyars",
+      "Hand Cannoneers",
+      "Janissaries",
+      "infantry",
+      "Slingers"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Monks"
+    ]
   },
   {
     "name": "Elite Eagle Warrior",
@@ -422,7 +632,20 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 4,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Eagle_Warrior"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Eagle_Warrior",
+    "weak_against": [
+      "Cataphracts",
+      "Boyars",
+      "Hand Cannoneers",
+      "Janissaries",
+      "infantry",
+      "Slingers"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Monks"
+    ]
   },
   {
     "name": "Spearman",
@@ -447,7 +670,14 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Spearman_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Spearman_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "infantry"
+    ],
+    "strong_against": [
+      "Cavalry"
+    ]
   },
   {
     "name": "Pikeman",
@@ -472,7 +702,18 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Pikeman_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Pikeman_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Cataphracts",
+      "Janissaries",
+      "infantry",
+      "Slingers"
+    ],
+    "strong_against": [
+      "Cavalry"
+    ]
   },
   {
     "name": "Halberdier",
@@ -497,7 +738,19 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Halberdier_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Halberdier_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Hand Cannoneers",
+      "Janissaries",
+      "Monks",
+      "infantry",
+      "Slingers"
+    ],
+    "strong_against": [
+      "Cavalry"
+    ]
   },
   {
     "name": "Militia",
@@ -522,7 +775,14 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 1,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)",
+    "weak_against": [],
+    "strong_against": [
+      "Skirmishers",
+      "Scout Cavalry",
+      "Spearmen",
+      "Villagers"
+    ]
   },
   {
     "name": "Man-at-arms",
@@ -547,7 +807,18 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 1,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Man-at-Arms"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Man-at-Arms",
+    "weak_against": [
+      "Archers",
+      "Scorpions"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Scout Cavalry",
+      "Eagle Scouts",
+      "Spearmen",
+      "Villagers"
+    ]
   },
   {
     "name": "Long Swordsman",
@@ -572,7 +843,26 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 1,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Long_Swordsman_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Long_Swordsman_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Cataphracts",
+      "Jaguar Warriors",
+      "Boyars",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Camel Riders",
+      "Eagle Warriors",
+      "buildings",
+      "Light Cavalry",
+      "Pikemen"
+    ]
   },
   {
     "name": "Two-handed Swordsman",
@@ -597,7 +887,27 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 1,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Cataphracts",
+      "Jaguar Warriors",
+      "Boyars",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Camel Riders",
+      "Eagle Warriors",
+      "buildings",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Champion",
@@ -622,7 +932,29 @@
     "accuracy": 1.0,
     "armor_melee": 1,
     "armor_pierce": 1,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Champion"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Champion",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Cataphracts",
+      "Jaguar Warriors",
+      "Boyars",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Camel Riders",
+      "Eagle Warriors",
+      "buildings",
+      "Light Cavalry",
+      "Huskarls",
+      "Rams"
+    ]
   },
   {
     "name": "Petard",
@@ -647,7 +979,20 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 2,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Petard_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Petard_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Cavalry Archers",
+      "Mangudai",
+      "Magyar Huszars",
+      "Castles",
+      "towers"
+    ],
+    "strong_against": [
+      "Buildings",
+      "siege weapons"
+    ]
   },
   {
     "name": "Trebuchet",
@@ -672,7 +1017,16 @@
     "accuracy": 0.8,
     "armor_melee": 1,
     "armor_pierce": 150,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Trebuchet"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Trebuchet",
+    "weak_against": [
+      "Magyar Huszars",
+      "Eagle Warriors",
+      "Bombard Cannons",
+      "Onagers"
+    ],
+    "strong_against": [
+      "Buildings"
+    ]
   },
   {
     "name": "Cannon Galleon",
@@ -697,7 +1051,15 @@
     "accuracy": 0.5,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Cannon_Galleon"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Cannon_Galleon",
+    "weak_against": [
+      "Ships",
+      "Bombard Cannons",
+      "Monks"
+    ],
+    "strong_against": [
+      "Buildings"
+    ]
   },
   {
     "name": "Elite Cannon Galleon",
@@ -722,7 +1084,15 @@
     "accuracy": 0.5,
     "armor_melee": 0,
     "armor_pierce": 8,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Cannon_Galleon"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Cannon_Galleon",
+    "weak_against": [
+      "Ships",
+      "Bombard Cannons",
+      "Monks"
+    ],
+    "strong_against": [
+      "Buildings"
+    ]
   },
   {
     "name": "Caravel",
@@ -747,7 +1117,22 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 8,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Caravel_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Caravel_(Age_of_Empires_II)",
+    "weak_against": [
+      "Fire Ships",
+      "Turtle Ships",
+      "Longboats",
+      "towers",
+      "Castles",
+      "Mangonels",
+      "Bombard Cannons"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Elite Caravel",
@@ -772,7 +1157,22 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 8,
-    "wiki_url": null
+    "wiki_url": null,
+    "weak_against": [
+      "Fire Ships",
+      "Turtle Ships",
+      "Longboats",
+      "towers",
+      "Castles",
+      "Mangonels",
+      "Bombard Cannons"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Demolition Raft",
@@ -797,7 +1197,16 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 2,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Demolition_Raft"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Demolition_Raft",
+    "weak_against": [
+      "Towers"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "Fire Galleys",
+      "buildings"
+    ]
   },
   {
     "name": "Demolition Ship",
@@ -822,7 +1231,19 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 3,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Demolition_Ship"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Demolition_Ship",
+    "weak_against": [
+      "Turtle Ships",
+      "towers",
+      "Castles"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "Fire Ships",
+      "buildings",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Heavy Demolition Ship",
@@ -847,7 +1268,18 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 3,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Heavy_Demolition_Ship"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Heavy_Demolition_Ship",
+    "weak_against": [
+      "Turtle Ships",
+      "towers",
+      "Castles"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Fire Galley",
@@ -872,7 +1304,18 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 4,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Fire_Galley_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Fire_Galley_(Age_of_Empires_II)",
+    "weak_against": [
+      "Demolition Rafts",
+      "towers",
+      "siege units"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Galleys"
+    ]
   },
   {
     "name": "Fire Ship",
@@ -897,7 +1340,22 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Fire_Ship_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Fire_Ship_(Age_of_Empires_II)",
+    "weak_against": [
+      "Demolition Ships",
+      "Turtle Ships",
+      "Longboats",
+      "towers",
+      "Castles",
+      "siege units"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "War Galleys",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Fast Fire Ship",
@@ -922,7 +1380,22 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 8,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Fast_Fire_Ship"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Fast_Fire_Ship",
+    "weak_against": [
+      "Demolition Ships",
+      "Turtle Ships",
+      "Longboats",
+      "towers",
+      "Castles",
+      "siege units"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Galleons",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Galley",
@@ -947,7 +1420,17 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Galley_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Galley_(Age_of_Empires_II)",
+    "weak_against": [
+      "Fire Galleys",
+      "towers",
+      "Castles"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings"
+    ]
   },
   {
     "name": "War Galley",
@@ -972,7 +1455,19 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/War_Galley_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/War_Galley_(Age_of_Empires_II)",
+    "weak_against": [
+      "Fire Ships",
+      "Turtle Ships",
+      "Longboats",
+      "towers",
+      "Castles"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings"
+    ]
   },
   {
     "name": "Galleon",
@@ -997,7 +1492,21 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 8,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Galleon_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Galleon_(Age_of_Empires_II)",
+    "weak_against": [
+      "Fire Ships",
+      "Turtle Ships",
+      "Longboats",
+      "towers",
+      "Castles"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Demolition Ships",
+      "Cannon Galleons"
+    ]
   },
   {
     "name": "Longboat",
@@ -1022,7 +1531,22 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Longboat_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Longboat_(Age_of_Empires_II)",
+    "weak_against": [
+      "Fire Ships",
+      "Turtle Ships",
+      "Samurai",
+      "towers",
+      "Castles",
+      "siege units"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Cannon Galleons",
+      "Galleons"
+    ]
   },
   {
     "name": "Elite Longboat",
@@ -1047,7 +1571,22 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 8,
-    "wiki_url": null
+    "wiki_url": null,
+    "weak_against": [
+      "Fire Ships",
+      "Turtle Ships",
+      "Samurai",
+      "towers",
+      "Castles",
+      "siege units"
+    ],
+    "strong_against": [
+      "Transport Ships",
+      "Fishing Ships",
+      "buildings",
+      "Cannon Galleons",
+      "Galleons"
+    ]
   },
   {
     "name": "Fishing Ship",
@@ -1072,7 +1611,9 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 4,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Fishing_Ship_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Fishing_Ship_(Age_of_Empires_II)",
+    "weak_against": [],
+    "strong_against": []
   },
   {
     "name": "Trade Cog",
@@ -1097,7 +1638,9 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cog"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cog",
+    "weak_against": [],
+    "strong_against": []
   },
   {
     "name": "Transport Ship",
@@ -1122,7 +1665,9 @@
     "accuracy": 1.0,
     "armor_melee": 4,
     "armor_pierce": 8,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Transport_Ship_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Transport_Ship_(Age_of_Empires_II)",
+    "weak_against": [],
+    "strong_against": []
   },
   {
     "name": "Turtle Ship",
@@ -1147,7 +1692,19 @@
     "accuracy": 1.0,
     "armor_melee": 6,
     "armor_pierce": 5,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Turtle_Ship"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Turtle_Ship",
+    "weak_against": [
+      "Bombard Cannons",
+      "Monks",
+      "Trebuchets",
+      "Castles",
+      "towers",
+      "Condottieri"
+    ],
+    "strong_against": [
+      "Ships",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Turtle Ship",
@@ -1172,7 +1729,19 @@
     "accuracy": 1.0,
     "armor_melee": 8,
     "armor_pierce": 6,
-    "wiki_url": null
+    "wiki_url": null,
+    "weak_against": [
+      "Bombard Cannons",
+      "Monks",
+      "Trebuchets",
+      "Castles",
+      "towers",
+      "Condottieri"
+    ],
+    "strong_against": [
+      "Ships",
+      "buildings"
+    ]
   },
   {
     "name": "Elephant",
@@ -1197,7 +1766,9 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Elephant"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Elephant",
+    "weak_against": [],
+    "strong_against": []
   },
   {
     "name": "Trade Cart",
@@ -1222,7 +1793,9 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cart"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cart",
+    "weak_against": [],
+    "strong_against": []
   },
   {
     "name": "Missionary",
@@ -1247,7 +1820,21 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Eagle Warriors",
+      "Light Cavalry",
+      "Camel Riders",
+      "Halberdiers",
+      "Genoese Crossbowmen",
+      "Towers",
+      "Castles"
+    ],
+    "strong_against": [
+      "buildings",
+      "Knights"
+    ]
   },
   {
     "name": "Monk",
@@ -1272,7 +1859,14 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Monk_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Monk_(Age_of_Empires_II)",
+    "weak_against": [
+      "Eagle Warriors",
+      "Light Cavalry",
+      "Konnik",
+      "Heresy"
+    ],
+    "strong_against": []
   },
   {
     "name": "Bombard Cannon",
@@ -1296,7 +1890,19 @@
     "damage": 40,
     "accuracy": 0.92,
     "armor_melee": 2,
-    "armor_pierce": 5
+    "armor_pierce": 5,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Bombard_Cannon",
+    "weak_against": [
+      "Condottieri",
+      "Magyar Huszars"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Scorpions",
+      "archers",
+      "Mangonels",
+      "Trebuchets"
+    ]
   },
   {
     "name": "Mangonel",
@@ -1321,7 +1927,18 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 6,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Bombard_Cannon"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Bombard_Cannon",
+    "weak_against": [
+      "Condottieri",
+      "Magyar Huszars"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Scorpions",
+      "archers",
+      "Mangonels",
+      "Trebuchets"
+    ]
   },
   {
     "name": "Onager",
@@ -1346,7 +1963,21 @@
     "accuracy": 1.0,
     "armor_melee": 0,
     "armor_pierce": 7,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Onager_(Age_of_Empires_II)"
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Onager_(Age_of_Empires_II)",
+    "weak_against": [
+      "Magyar Huszars",
+      "cavalry",
+      "Mangudai",
+      "Woad Raiders",
+      "Condottieri",
+      "Eagle Warriors",
+      "Bombard Cannons"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Villagers",
+      "archers"
+    ]
   },
   {
     "name": "Siege Onager",
@@ -1370,7 +2001,22 @@
     "damage": 75,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 8
+    "armor_pierce": 8,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Siege_Onager",
+    "weak_against": [
+      "Magyar Huszars",
+      "cavalry",
+      "Mangudai",
+      "Woad Raiders",
+      "Condottieri",
+      "Bombard Cannons",
+      "Eagle Warriors"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Villagers",
+      "archers"
+    ]
   },
   {
     "name": "Battering Ram",
@@ -1394,7 +2040,17 @@
     "damage": 2,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 180
+    "armor_pierce": 180,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Battering_Ram",
+    "weak_against": [
+      "Mangudai",
+      "Mangonels",
+      "Magyar Huszars"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Trebuchets"
+    ]
   },
   {
     "name": "Capped Ram",
@@ -1418,7 +2074,17 @@
     "damage": 3,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 190
+    "armor_pierce": 190,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Capped_Ram",
+    "weak_against": [
+      "Mangudais",
+      "Onagers",
+      "Magyar Huszars"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Trebuchets"
+    ]
   },
   {
     "name": "Siege Ram",
@@ -1442,7 +2108,17 @@
     "damage": 4,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 195
+    "armor_pierce": 195,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Siege_Ram",
+    "weak_against": [
+      "Mangudais",
+      "Onagers",
+      "Magyar Huszars"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Trebuchets"
+    ]
   },
   {
     "name": "Siege Tower",
@@ -1466,7 +2142,13 @@
     "damage": null,
     "accuracy": 1.0,
     "armor_melee": -2,
-    "armor_pierce": 100
+    "armor_pierce": 100,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Siege_Tower_(Age_of_Empires_II)",
+    "weak_against": [
+      "Magyar Huszars",
+      "Eagle Warriors"
+    ],
+    "strong_against": []
   },
   {
     "name": "Scorpion",
@@ -1490,7 +2172,22 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 7
+    "armor_pierce": 7,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Scorpion",
+    "weak_against": [
+      "Magyar Huszars",
+      "cavalry",
+      "Mangudai",
+      "Mangonels",
+      "Eagle Warriors",
+      "Woad Raiders",
+      "Huskarls"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Villagers",
+      "archers"
+    ]
   },
   {
     "name": "Heavy Scorpion",
@@ -1514,7 +2211,21 @@
     "damage": 16,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 7
+    "armor_pierce": 7,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Heavy_Scorpion",
+    "weak_against": [
+      "Magyar Huszars",
+      "cavalry",
+      "Mangudai",
+      "Onagers",
+      "Eagle Warriors",
+      "Woad Raiders",
+      "Huskarls"
+    ],
+    "strong_against": [
+      "Buildings",
+      "archers"
+    ]
   },
   {
     "name": "Battle Elephant",
@@ -1538,7 +2249,22 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Battle_Elephant",
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Heavy Camel Riders",
+      "Cavalry Archers",
+      "Monks",
+      "War Elephants",
+      "Scorpions"
+    ],
+    "strong_against": [
+      "buildings"
+    ]
   },
   {
     "name": "Elite Battle Elephant",
@@ -1562,7 +2288,22 @@
     "damage": 16,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Elite_Battle_Elephant",
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Heavy Camel Riders",
+      "Cavalry Archers",
+      "Monks",
+      "War Elephants",
+      "Scorpions"
+    ],
+    "strong_against": [
+      "buildings"
+    ]
   },
   {
     "name": "Camel",
@@ -1586,7 +2327,20 @@
     "damage": 6,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Camel",
+    "weak_against": [
+      "Infantry",
+      "archers",
+      "Cataphracts",
+      "defensive structures"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "siege weapons",
+      "Cavalry Archers",
+      "cavalry"
+    ]
   },
   {
     "name": "Heavy Camel",
@@ -1610,7 +2364,19 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Heavy_Camel",
+    "weak_against": [
+      "Infantry",
+      "archers",
+      "Cataphracts"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "siege weapons",
+      "Cavalry Archers",
+      "cavalry"
+    ]
   },
   {
     "name": "Imperial Camel",
@@ -1634,7 +2400,20 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Imperial_Camel",
+    "weak_against": [
+      "Pikemen",
+      "Teutonic Knights",
+      "Genoese Crossbowmen",
+      "Berserks"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "siege weapons",
+      "Cavalry Archers",
+      "cavalry"
+    ]
   },
   {
     "name": "Knight",
@@ -1658,7 +2437,28 @@
     "damage": 10,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Knight",
+    "weak_against": [
+      "Boyars",
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Monks",
+      "War Elephants"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers",
+      "Villagers",
+      "siege weapons",
+      "Cavalry Archers",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Cavalier",
@@ -1682,7 +2482,28 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Cavalier",
+    "weak_against": [
+      "Boyars",
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Monks",
+      "War Elephants"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers",
+      "Villagers",
+      "siege weapons",
+      "Cavalry Archers",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Paladin",
@@ -1706,7 +2527,28 @@
     "damage": 14,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Paladin",
+    "weak_against": [
+      "Boyars",
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Monks",
+      "War Elephants"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers",
+      "Villagers",
+      "siege weapons",
+      "Cavalry Archers",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Scout Cavalry",
@@ -1730,7 +2572,19 @@
     "damage": 3,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Scout_Cavalry_(Age_of_Empires_II)",
+    "weak_against": [
+      "Infantry",
+      "cavalry"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Villagers",
+      "siege weapons",
+      "Archers",
+      "Monks"
+    ]
   },
   {
     "name": "Scout Cavalry",
@@ -1754,7 +2608,19 @@
     "damage": 5,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Scout_Cavalry_(Age_of_Empires_II)",
+    "weak_against": [
+      "Infantry",
+      "cavalry"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Villagers",
+      "siege weapons",
+      "Archers",
+      "Monks"
+    ]
   },
   {
     "name": "Light Cavalry",
@@ -1778,7 +2644,19 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Light_Cavalry_(Age_of_Empires_II)",
+    "weak_against": [
+      "Infantry",
+      "cavalry"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Villagers",
+      "siege weapons",
+      "archers",
+      "Monks"
+    ]
   },
   {
     "name": "Hussar",
@@ -1802,7 +2680,17 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Hussar_(Age_of_Empires_II)",
+    "weak_against": [
+      "Infantry",
+      "cavalry"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Monks"
+    ]
   },
   {
     "name": "Tarkan",
@@ -1826,7 +2714,21 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Tarkan",
+    "weak_against": [
+      "Infantry",
+      "cavalry",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Camel Riders"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Light Cavalry",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Tarkan",
@@ -1850,7 +2752,21 @@
     "damage": 11,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 4
+    "armor_pierce": 4,
+    "wiki_url": null,
+    "weak_against": [
+      "Infantry",
+      "cavalry",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Camel Riders"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Light Cavalry",
+      "buildings"
+    ]
   },
   {
     "name": "Villager",
@@ -1874,7 +2790,15 @@
     "damage": 3,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Villager_(Age_of_Empires_II)",
+    "weak_against": [],
+    "strong_against": [
+      "buildings",
+      "Skirmishers",
+      "rams",
+      "Trebuchets"
+    ]
   },
   {
     "name": "Arambai",
@@ -1898,7 +2822,26 @@
     "damage": 18,
     "accuracy": 0.2,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Arambai",
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Halberdiers",
+      "Samurai",
+      "Camel Archers"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers",
+      "Monks",
+      "Archers"
+    ]
   },
   {
     "name": "Elite Arambai",
@@ -1922,7 +2865,26 @@
     "damage": 20,
     "accuracy": 0.3,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": null,
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Halberdiers",
+      "Samurai",
+      "Camel Archers"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers",
+      "Monks",
+      "Archers"
+    ]
   },
   {
     "name": "Ballista Elephant",
@@ -1946,7 +2908,29 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Ballista_Elephant",
+    "weak_against": [
+      "Kamayuks",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Eagle Warriors",
+      "Halberdiers",
+      "Samurai",
+      "Mangonels",
+      "Bombard Cannons",
+      "Scorpions",
+      "Rams",
+      "Magyar Huszars",
+      "Mangudai"
+    ],
+    "strong_against": [
+      "Archers",
+      "infantry",
+      "buildings",
+      "naval vessels"
+    ]
   },
   {
     "name": "Elite Ballista Elephant",
@@ -1970,7 +2954,29 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": null,
+    "weak_against": [
+      "Kamayuks",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Eagle Warriors",
+      "Halberdiers",
+      "Samurai",
+      "Mangonels",
+      "Bombard Cannons",
+      "Scorpions",
+      "Rams",
+      "Magyar Huszars",
+      "Mangudai"
+    ],
+    "strong_against": [
+      "Archers",
+      "infantry",
+      "buildings",
+      "naval vessels"
+    ]
   },
   {
     "name": "Berserk",
@@ -1994,7 +3000,27 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Berserk",
+    "weak_against": [
+      "Cataphracts",
+      "Jaguar Warriors",
+      "Boyars",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "Plumed Archers",
+      "Samurai",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Camel Riders",
+      "Eagle Warriors",
+      "buildings",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Elite Berserk",
@@ -2018,7 +3044,27 @@
     "damage": 14,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Cataphracts",
+      "Jaguar Warriors",
+      "Boyars",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "Plumed Archers",
+      "Samurai",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Camel Riders",
+      "Eagle Warriors",
+      "buildings",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Boyar",
@@ -2042,7 +3088,25 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 4,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Boyar",
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Monks",
+      "War Elephants",
+      "Samurai",
+      "Scorpions",
+      "defensive structures",
+      "archers",
+      "Leitis"
+    ],
+    "strong_against": [
+      "Skirmishers"
+    ]
   },
   {
     "name": "Elite Boyar",
@@ -2066,7 +3130,25 @@
     "damage": 14,
     "accuracy": 1.0,
     "armor_melee": 6,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": null,
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Monks",
+      "War Elephants",
+      "Samurai",
+      "Scorpions",
+      "defensive structures",
+      "archers",
+      "Leitis"
+    ],
+    "strong_against": [
+      "Skirmishers"
+    ]
   },
   {
     "name": "Camel Archer",
@@ -2090,7 +3172,18 @@
     "damage": 7,
     "accuracy": 0.95,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Camel_Archer",
+    "weak_against": [
+      "Huskarls",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Mangonels"
+    ],
+    "strong_against": [
+      "Cavalry Archers",
+      "Mangudai"
+    ]
   },
   {
     "name": "Elite Camel Archer",
@@ -2114,7 +3207,18 @@
     "damage": 8,
     "accuracy": 0.95,
     "armor_melee": 1,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Huskarls",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Mangonels"
+    ],
+    "strong_against": [
+      "Cavalry Archers",
+      "Mangudai"
+    ]
   },
   {
     "name": "Cataphract",
@@ -2138,7 +3242,20 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Cataphract_(Age_of_Empires_II)",
+    "weak_against": [
+      "War Elephants",
+      "archers",
+      "Boyars",
+      "Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "infantry",
+      "siege weapons",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Elite Cataphract",
@@ -2162,7 +3279,20 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "War Elephants",
+      "archers",
+      "Boyars",
+      "Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "infantry",
+      "siege weapons",
+      "Light Cavalry"
+    ]
   },
   {
     "name": "Chu Ko Nu",
@@ -2186,7 +3316,22 @@
     "damage": 8,
     "accuracy": 0.85,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Chu_Ko_Nu_(Age_of_Empires_II)",
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Genitours"
+    ],
+    "strong_against": [
+      "Infantry",
+      "buildings",
+      "Rams"
+    ]
   },
   {
     "name": "Elite Chu Ko Nu",
@@ -2210,7 +3355,22 @@
     "damage": 8,
     "accuracy": 0.85,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Genitours"
+    ],
+    "strong_against": [
+      "Infantry",
+      "buildings",
+      "Rams"
+    ]
   },
   {
     "name": "Conquistador",
@@ -2234,7 +3394,25 @@
     "damage": 16,
     "accuracy": 0.65,
     "armor_melee": 2,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Conquistador_(Age_of_Empires_II)",
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Condottieri",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Onagers",
+      "Pikemen",
+      "Samurai"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Rams"
+    ]
   },
   {
     "name": "Elite Conquistador",
@@ -2258,7 +3436,25 @@
     "damage": 18,
     "accuracy": 0.7,
     "armor_melee": 2,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": null,
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Condottieri",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Onagers",
+      "Pikemen",
+      "Samurai"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Rams"
+    ]
   },
   {
     "name": "Elephant Archer",
@@ -2282,7 +3478,25 @@
     "damage": 6,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Elephant_Archer_(Age_of_Empires_II)",
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Samurai",
+      "Monks"
+    ],
+    "strong_against": [
+      "archers",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Elephant Archer",
@@ -2306,7 +3520,25 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": null,
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Samurai",
+      "Monks"
+    ],
+    "strong_against": [
+      "archers",
+      "buildings"
+    ]
   },
   {
     "name": "Gbeto",
@@ -2330,7 +3562,26 @@
     "damage": 10,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Gbeto",
+    "weak_against": [
+      "Mangonels",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Janissaries",
+      "Monks",
+      "cavalry",
+      "Samurai",
+      "Slingers",
+      "Plumed Archers"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Pikemen",
+      "Cavalry Archers",
+      "Battering Rams",
+      "infantry"
+    ]
   },
   {
     "name": "Elite Gbeto",
@@ -2354,7 +3605,26 @@
     "damage": 13,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Mangonels",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Janissaries",
+      "Monks",
+      "cavalry",
+      "Samurai",
+      "Slingers",
+      "Plumed Archers"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Pikemen",
+      "Cavalry Archers",
+      "Battering Rams",
+      "infantry"
+    ]
   },
   {
     "name": "Genoese Crossbowman",
@@ -2378,7 +3648,21 @@
     "damage": 6,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Genoese_Crossbowman",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Mangonels",
+      "Huskarls",
+      "Eagle Warriors",
+      "Samurai"
+    ],
+    "strong_against": [
+      "Cavalry",
+      "Cavalry Archers",
+      "infantry"
+    ]
   },
   {
     "name": "Elite Genoese Crossbowman",
@@ -2402,7 +3686,21 @@
     "damage": 6,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Mangonels",
+      "Huskarls",
+      "Eagle Warriors",
+      "Samurai"
+    ],
+    "strong_against": [
+      "Cavalry",
+      "Cavalry Archers",
+      "infantry"
+    ]
   },
   {
     "name": "Huskarl",
@@ -2426,7 +3724,18 @@
     "damage": 10,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 6
+    "armor_pierce": 6,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Huskarl_(Age_of_Empires_II)",
+    "weak_against": [
+      "Mangonels"
+    ],
+    "strong_against": [
+      "Archers",
+      "buildings",
+      "Eagle Warriors",
+      "Scorpions",
+      "gunpowder units"
+    ]
   },
   {
     "name": "Elite Huskarl",
@@ -2450,7 +3759,18 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 8
+    "armor_pierce": 8,
+    "wiki_url": null,
+    "weak_against": [
+      "Mangonels"
+    ],
+    "strong_against": [
+      "Archers",
+      "buildings",
+      "Eagle Warriors",
+      "Scorpions",
+      "gunpowder units"
+    ]
   },
   {
     "name": "Jaguar Warrior",
@@ -2474,7 +3794,25 @@
     "damage": 10,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Jaguar_Warrior",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Mangonels",
+      "Cataphracts",
+      "Boyars",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "infantry",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Jaguar Warrior",
@@ -2498,7 +3836,25 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 2,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Mangonels",
+      "Cataphracts",
+      "Boyars",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "infantry",
+      "buildings"
+    ]
   },
   {
     "name": "Janissary",
@@ -2522,7 +3878,21 @@
     "damage": 17,
     "accuracy": 0.5,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Janissary_(Age_of_Empires_II)",
+    "weak_against": [
+      "Skirmishers",
+      "Samurai",
+      "Scorpions",
+      "Mangonels",
+      "Huskarls",
+      "Condottieri",
+      "Bombard Cannons"
+    ],
+    "strong_against": [
+      "Infantry",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Janissary",
@@ -2546,7 +3916,21 @@
     "damage": 22,
     "accuracy": 0.5,
     "armor_melee": 2,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Skirmishers",
+      "Samurai",
+      "Scorpions",
+      "Mangonels",
+      "Huskarls",
+      "Condottieri",
+      "Bombard Cannons"
+    ],
+    "strong_against": [
+      "Infantry",
+      "buildings"
+    ]
   },
   {
     "name": "Kamayuk",
@@ -2570,7 +3954,25 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Kamayuk",
+    "weak_against": [
+      "Plumed Archers",
+      "Scorpions",
+      "Mangonels",
+      "Hand Cannoneers",
+      "Janissaries",
+      "Monks",
+      "Slingers",
+      "Cataphracts",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "cavalry",
+      "Cavalry Archers",
+      "Spearmen"
+    ]
   },
   {
     "name": "Elite Kamayuk",
@@ -2594,7 +3996,25 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Plumed Archers",
+      "Scorpions",
+      "Mangonels",
+      "Hand Cannoneers",
+      "Janissaries",
+      "Monks",
+      "Slingers",
+      "Cataphracts",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "cavalry",
+      "Cavalry Archers",
+      "Spearmen"
+    ]
   },
   {
     "name": "Karambit Warrior",
@@ -2618,7 +4038,31 @@
     "damage": 6,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Karambit_Warrior",
+    "weak_against": [
+      "Archers",
+      "Cavalry Archers",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "Boyars",
+      "Cataphracts",
+      "Samurai",
+      "Berserks",
+      "Teutonic Knights",
+      "War Elephants",
+      "Konniks",
+      "Leitis",
+      "Keshiks"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Eagle Warriors",
+      "Rams"
+    ]
   },
   {
     "name": "Elite Karambit Warrior",
@@ -2642,7 +4086,31 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Archers",
+      "Cavalry Archers",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "Boyars",
+      "Cataphracts",
+      "Samurai",
+      "Berserks",
+      "Teutonic Knights",
+      "War Elephants",
+      "Konniks",
+      "Leitis",
+      "Keshiks"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Eagle Warriors",
+      "Rams"
+    ]
   },
   {
     "name": "Longbowman",
@@ -2666,7 +4134,21 @@
     "damage": 6,
     "accuracy": 0.7,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Longbowman_(Age_of_Empires_II)",
+    "weak_against": [
+      "Skirmishers",
+      "Samurai",
+      "siege weapons",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Genitours"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers"
+    ]
   },
   {
     "name": "Elite Longbowman",
@@ -2690,7 +4172,21 @@
     "damage": 7,
     "accuracy": 0.8,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Skirmishers",
+      "Samurai",
+      "siege weapons",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Genitours"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers"
+    ]
   },
   {
     "name": "Magyar Huszar",
@@ -2714,7 +4210,23 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Magyar_Huszar",
+    "weak_against": [
+      "Boyars",
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Samurai"
+    ],
+    "strong_against": [
+      "Siege weapons",
+      "archers"
+    ]
   },
   {
     "name": "Elite Magyar Huszar",
@@ -2738,7 +4250,23 @@
     "damage": 10,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": null,
+    "weak_against": [
+      "Boyars",
+      "Pikemen",
+      "Kamayuks",
+      "Berserks",
+      "Genoese Crossbowmen",
+      "Teutonic Knights",
+      "Mamelukes",
+      "Camel Riders",
+      "Samurai"
+    ],
+    "strong_against": [
+      "Siege weapons",
+      "archers"
+    ]
   },
   {
     "name": "Mameluke",
@@ -2762,7 +4290,18 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)",
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen"
+    ],
+    "strong_against": [
+      "Siege weapons",
+      "Cavalry Archers",
+      "cavalry"
+    ]
   },
   {
     "name": "Elite Mameluke",
@@ -2786,7 +4325,18 @@
     "damage": 10,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen"
+    ],
+    "strong_against": [
+      "Siege weapons",
+      "Cavalry Archers",
+      "cavalry"
+    ]
   },
   {
     "name": "Mangudai",
@@ -2810,7 +4360,25 @@
     "damage": 6,
     "accuracy": 0.95,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Mangudai",
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Halberdiers",
+      "Samurai",
+      "Camel Archers"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers",
+      "Rams"
+    ]
   },
   {
     "name": "Elite Mangudai",
@@ -2834,7 +4402,25 @@
     "damage": 8,
     "accuracy": 0.95,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Halberdiers",
+      "Samurai",
+      "Camel Archers"
+    ],
+    "strong_against": [
+      "Infantry",
+      "Villagers",
+      "Rams"
+    ]
   },
   {
     "name": "Organ Gun",
@@ -2858,7 +4444,20 @@
     "damage": 16,
     "accuracy": 0.5,
     "armor_melee": 2,
-    "armor_pierce": 4
+    "armor_pierce": 4,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Organ_Gun_(Age_of_Empires_II)",
+    "weak_against": [
+      "Samurai",
+      "Condottieri",
+      "cavalry",
+      "Onagers",
+      "Bombard Cannons",
+      "Huskarls"
+    ],
+    "strong_against": [
+      "Villagers",
+      "Skirmishers"
+    ]
   },
   {
     "name": "Elite Organ Gun",
@@ -2882,7 +4481,20 @@
     "damage": 20,
     "accuracy": 0.5,
     "armor_melee": 2,
-    "armor_pierce": 6
+    "armor_pierce": 6,
+    "wiki_url": null,
+    "weak_against": [
+      "Samurai",
+      "Condottieri",
+      "cavalry",
+      "Onagers",
+      "Bombard Cannons",
+      "Huskarls"
+    ],
+    "strong_against": [
+      "Villagers",
+      "Skirmishers"
+    ]
   },
   {
     "name": "Plumed Archer",
@@ -2906,7 +4518,23 @@
     "damage": 5,
     "accuracy": 0.8,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Plumed_Archer",
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Rattan Archers",
+      "Genitours"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers",
+      "Hand Cannoneers"
+    ]
   },
   {
     "name": "Elite Plumed Archer",
@@ -2930,7 +4558,23 @@
     "damage": 5,
     "accuracy": 0.8,
     "armor_melee": 0,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": null,
+    "weak_against": [
+      "Skirmishers",
+      "Scorpions",
+      "Mangonels",
+      "cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "Rattan Archers",
+      "Genitours"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers",
+      "Hand Cannoneers"
+    ]
   },
   {
     "name": "Rattan Archer",
@@ -2954,7 +4598,18 @@
     "damage": 6,
     "accuracy": 0.8,
     "armor_melee": 0,
-    "armor_pierce": 4
+    "armor_pierce": 4,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Rattan_Archer",
+    "weak_against": [
+      "Cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "siege weapons"
+    ],
+    "strong_against": [
+      "Archers",
+      "infantry"
+    ]
   },
   {
     "name": "Elite Rattan Archer",
@@ -2978,7 +4633,18 @@
     "damage": 7,
     "accuracy": 0.9,
     "armor_melee": 0,
-    "armor_pierce": 6
+    "armor_pierce": 6,
+    "wiki_url": null,
+    "weak_against": [
+      "Cavalry",
+      "Huskarls",
+      "Eagle Warriors",
+      "siege weapons"
+    ],
+    "strong_against": [
+      "Archers",
+      "infantry"
+    ]
   },
   {
     "name": "Samurai",
@@ -3002,7 +4668,32 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Samurai_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Hand Cannoneers",
+      "heavy cavalry",
+      "Cataphracts",
+      "War Elephants",
+      "Slingers"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Eagle Warriors",
+      "Pikemen",
+      "Skirmishers",
+      "Light cavalry",
+      "Infantry",
+      "cavalry",
+      "unique units",
+      "Jaguar Warriors",
+      "Teutonic Knights",
+      "Cataphracts",
+      "War Elephants",
+      "Mamelukes",
+      "Throwing Axemen"
+    ]
   },
   {
     "name": "Elite Samurai",
@@ -3026,7 +4717,32 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Archers",
+      "Hand Cannoneers",
+      "heavy cavalry",
+      "Cataphracts",
+      "War Elephants",
+      "Slingers"
+    ],
+    "strong_against": [
+      "Buildings",
+      "Eagle Warriors",
+      "Pikemen",
+      "Skirmishers",
+      "Light cavalry",
+      "Infantry",
+      "cavalry",
+      "unique units",
+      "Jaguar Warriors",
+      "Teutonic Knights",
+      "Cataphracts",
+      "War Elephants",
+      "Mamelukes",
+      "Throwing Axemen"
+    ]
   },
   {
     "name": "Shotel Warrior",
@@ -3050,7 +4766,23 @@
     "damage": 16,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Shotel_Warrior",
+    "weak_against": [
+      "Cavalry Archers",
+      "Mangonels",
+      "Hand Cannoneers",
+      "cavalry",
+      "infantry"
+    ],
+    "strong_against": [
+      "Villagers",
+      "Skirmishers",
+      "Pikemen",
+      "siege weapons",
+      "Light Cavalry",
+      "Monks"
+    ]
   },
   {
     "name": "Elite Shotel Warrior",
@@ -3074,7 +4806,23 @@
     "damage": 18,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "Cavalry Archers",
+      "Mangonels",
+      "Hand Cannoneers",
+      "cavalry",
+      "infantry"
+    ],
+    "strong_against": [
+      "Villagers",
+      "Skirmishers",
+      "Pikemen",
+      "siege weapons",
+      "Light Cavalry",
+      "Monks"
+    ]
   },
   {
     "name": "Tarkan",
@@ -3098,7 +4846,21 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Tarkan",
+    "weak_against": [
+      "Infantry",
+      "cavalry",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Camel Riders"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Light Cavalry",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Tarkan",
@@ -3122,7 +4884,21 @@
     "damage": 11,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 4
+    "armor_pierce": 4,
+    "wiki_url": null,
+    "weak_against": [
+      "Infantry",
+      "cavalry",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Camel Riders"
+    ],
+    "strong_against": [
+      "Archers",
+      "siege weapons",
+      "Light Cavalry",
+      "buildings"
+    ]
   },
   {
     "name": "Teutonic Knight",
@@ -3146,7 +4922,24 @@
     "damage": 12,
     "accuracy": 1.0,
     "armor_melee": 5,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Teutonic_Knight",
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Mangonels",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Monks",
+      "Cataphracts",
+      "Leitis"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "buildings"
+    ]
   },
   {
     "name": "Elite Teutonic Knight",
@@ -3170,7 +4963,24 @@
     "damage": 17,
     "accuracy": 1.0,
     "armor_melee": 10,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": null,
+    "weak_against": [
+      "Archers",
+      "Scorpions",
+      "Mangonels",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Janissaries",
+      "Slingers",
+      "Monks",
+      "Cataphracts",
+      "Leitis"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "buildings"
+    ]
   },
   {
     "name": "Throwing Axeman",
@@ -3194,7 +5004,30 @@
     "damage": 7,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Throwing_Axeman_(Age_of_Empires_II)",
+    "weak_against": [
+      "Archers",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "Boyars",
+      "Cataphracts",
+      "Samurai",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Eagle Warriors",
+      "Rams",
+      "Trebuchets",
+      "buildings",
+      "Light Cavalry",
+      "Huskarls",
+      "Camel Riders"
+    ]
   },
   {
     "name": "Elite Throwing Axeman",
@@ -3218,7 +5051,30 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 0
+    "armor_pierce": 0,
+    "wiki_url": null,
+    "weak_against": [
+      "Archers",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "Boyars",
+      "Cataphracts",
+      "Samurai",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Eagle Warriors",
+      "Rams",
+      "Trebuchets",
+      "buildings",
+      "Light Cavalry",
+      "Huskarls",
+      "Camel Riders"
+    ]
   },
   {
     "name": "War Elephant",
@@ -3242,7 +5098,20 @@
     "damage": 15,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 2
+    "armor_pierce": 2,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)",
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Camel Riders",
+      "Cavalry Archers",
+      "Monks"
+    ],
+    "strong_against": [
+      "Buildings"
+    ]
   },
   {
     "name": "Elite War Elephant",
@@ -3266,7 +5135,20 @@
     "damage": 20,
     "accuracy": 1.0,
     "armor_melee": 1,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": null,
+    "weak_against": [
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Mamelukes",
+      "Camel Riders",
+      "Cavalry Archers",
+      "Monks"
+    ],
+    "strong_against": [
+      "Buildings"
+    ]
   },
   {
     "name": "War Wagon",
@@ -3290,7 +5172,26 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 3
+    "armor_pierce": 3,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/War_Wagon_(Age_of_Empires_II)",
+    "weak_against": [
+      "Cavalry",
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Mangonels",
+      "Samurai",
+      "Monks"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers"
+    ]
   },
   {
     "name": "Elite War Wagon",
@@ -3314,7 +5215,26 @@
     "damage": 9,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 4
+    "armor_pierce": 4,
+    "wiki_url": null,
+    "weak_against": [
+      "Cavalry",
+      "Pikemen",
+      "Kamayuks",
+      "Genoese Crossbowmen",
+      "Huskarls",
+      "Mamelukes",
+      "Camel Riders",
+      "Skirmishers",
+      "Eagle Warriors",
+      "Mangonels",
+      "Samurai",
+      "Monks"
+    ],
+    "strong_against": [
+      "Infantry",
+      "archers"
+    ]
   },
   {
     "name": "Woad Raider",
@@ -3338,7 +5258,28 @@
     "damage": 8,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": "https://ageofempires.fandom.com/wiki/Woad_Raider",
+    "weak_against": [
+      "archers",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "cavalry",
+      "Samurai",
+      "Berserks",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Eagle Warriors",
+      "siege weapons",
+      "buildings",
+      "Light Cavalry",
+      "Huskarls"
+    ]
   },
   {
     "name": "Elite Woad Raider",
@@ -3362,6 +5303,27 @@
     "damage": 13,
     "accuracy": 1.0,
     "armor_melee": 0,
-    "armor_pierce": 1
+    "armor_pierce": 1,
+    "wiki_url": null,
+    "weak_against": [
+      "archers",
+      "Jaguar Warriors",
+      "Hand Cannoneers",
+      "Conquistadors",
+      "Slingers",
+      "cavalry",
+      "Samurai",
+      "Berserks",
+      "Teutonic Knights"
+    ],
+    "strong_against": [
+      "Skirmishers",
+      "Halberdiers",
+      "Eagle Warriors",
+      "siege weapons",
+      "buildings",
+      "Light Cavalry",
+      "Huskarls"
+    ]
   }
 ]
