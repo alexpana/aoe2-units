@@ -106,15 +106,23 @@ class MediaWiki:
         return root.xpath(xpath + "/text()")
 
     @staticmethod
+    def is_key_missing(unit, key):
+        return key not in unit or type(unit[key]) == list and len(unit[key]) == 0 or unit[key] is None
+
+    @staticmethod
+    def any_key_missing(unit, keys):
+        return any([MediaWiki.is_key_missing(unit, k) for k in keys])
+
+    @staticmethod
     def fetch_details(unit):
         url = unit['wiki_url']
-        html_content = requests.get(url).content
 
-        root = lxml.html.fromstring(str(html_content))
+        required_keys = ['strong_against', 'weak_against']
+        if MediaWiki.any_key_missing(unit, required_keys):
+            html_content = requests.get(url).content
+            root = lxml.html.fromstring(str(html_content))
 
-        if 'strong_against' not in unit or len(unit['strong_against']) > 0:
             unit['strong_against'] = MediaWiki.scrape_links_or_text(root, "//table[@class='wikitable']/tr[2]/td[2]")
-        if 'weak_against' not in unit or len(unit['weak_against']) > 0:
             unit['weak_against'] = MediaWiki.scrape_links_or_text(root, "//table[@class='wikitable']/tr[3]/td[2]")
 
 
