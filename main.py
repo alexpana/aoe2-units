@@ -117,28 +117,38 @@ class MediaWiki:
     def fetch_details(unit):
         url = unit['wiki_url']
 
-        required_keys = ['strong_against', 'weak_against']
+        required_keys = ['strong_against', 'weak_against', 'description', 'upgrades_to']
         if MediaWiki.any_key_missing(unit, required_keys):
             html_content = requests.get(url).content
             root = lxml.html.fromstring(str(html_content))
 
             unit['strong_against'] = MediaWiki.scrape_links_or_text(root, "//table[@class='wikitable']/tr[2]/td[2]")
             unit['weak_against'] = MediaWiki.scrape_links_or_text(root, "//table[@class='wikitable']/tr[3]/td[2]")
+            unit['description'] = root.xpath("//blockquote[1]/div/i/text()")[0]
+            upgrades = root.xpath("//b[contains(text(), 'Upgrades')]/../../td[2]/a[2]/text()")
+            if len(upgrades) > 0:
+                unit['upgrades_to'] = upgrades[0]
+            else:
+                unit['upgrades_to'] = None
 
 
 if __name__ == "__main__":
     units = UnitStats('units.json')
 
-    for unit in units.units:
-        if unit['wiki_url'] is not None:
-            print("Processing {}".format(unit['name']))
-            MediaWiki.fetch_details(unit)
-        else:
-            print("Skipping {}".format(unit['name']))
+    # for unit in units.units:
+    #     if unit['wiki_url'] is not None:
+    #         print("Processing {}".format(unit['name']))
+    #         MediaWiki.fetch_details(unit)
+    #     else:
+    #         print("Skipping {}".format(unit['name']))
+    #
+    # for unit in units.units:
+    #     if unit['key'].startswith('elite'):
+    #         base_unit = units.get_unit(unit['key'][6:])
+    #         unit['weak_against'] = base_unit['weak_against']
+    #         unit['strong_against'] = base_unit['strong_against']
 
     for unit in units.units:
-        if unit['key'].startswith('elite'):
-            base_unit = units.get_unit(unit['key'][6:])
-            unit['weak_against'] = base_unit['weak_against']
-            unit['strong_against'] = base_unit['strong_against']
+        if 'upgrades' in unit:
+            del unit['upgrades']
     units.save('units.json')

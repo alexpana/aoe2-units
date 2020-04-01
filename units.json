@@ -31,7 +31,9 @@
     "strong_against": [
       "Infantry",
       "Villagers"
-    ]
+    ],
+    "description": "Quick and light. Weak at close range; excels at battle from distance.",
+    "upgrades_to": "Crossbowman"
   },
   {
     "name": "Crossbowman",
@@ -70,7 +72,9 @@
     "strong_against": [
       "Infantry",
       "Villagers"
-    ]
+    ],
+    "description": "Stronger than Archer. Quick and light.",
+    "upgrades_to": "Arbalester"
   },
   {
     "name": "Arbalester",
@@ -109,7 +113,9 @@
     "strong_against": [
       "Infantry",
       "Villagers"
-    ]
+    ],
+    "description": "Stronger than Crosbowman. Quick and light.",
+    "upgrades_to": null
   },
   {
     "name": "Cavalry Archer",
@@ -146,7 +152,11 @@
       "camel units",
       "Rattan Archers"
     ],
-    "strong_against": []
+    "strong_against": [
+      "Slow and non-ranged units\\n"
+    ],
+    "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
+    "upgrades_to": "Heavy Cavalry Archer"
   },
   {
     "name": "Heavy Cavalry Archer",
@@ -185,7 +195,11 @@
       "Camel Archers",
       "Rattan Archers"
     ],
-    "strong_against": []
+    "strong_against": [
+      "Slow and non-ranged units\\n"
+    ],
+    "description": "Stronger than Cavalry Archer. Fast, with ranged attack.",
+    "upgrades_to": null
   },
   {
     "name": "Genitour",
@@ -222,7 +236,9 @@
     "strong_against": [
       "Archers",
       "Cavalry Archers"
-    ]
+    ],
+    "description": "Berber unique unit. Mounted Skirmisher.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Genitour",
@@ -295,7 +311,9 @@
     ],
     "strong_against": [
       "Infantry"
-    ]
+    ],
+    "description": "Powerful close attack; inaccurate at range.",
+    "upgrades_to": null
   },
   {
     "name": "Skirmisher",
@@ -326,7 +344,9 @@
     ],
     "strong_against": [
       "Archers"
-    ]
+    ],
+    "description": "Ranged unit equipped with armor vs. archer attacks.",
+    "upgrades_to": "Elite Skirmisher"
   },
   {
     "name": "Elite Skirmisher",
@@ -357,7 +377,9 @@
     ],
     "strong_against": [
       "Archers"
-    ]
+    ],
+    "description": "Stronger than Skirmisher. Ranged unit equipped with armor vs. archer attacks.",
+    "upgrades_to": "Imperial Skirmisher"
   },
   {
     "name": "Imperial Skirmisher",
@@ -389,7 +411,9 @@
     "strong_against": [
       "Archers",
       "Pikemen"
-    ]
+    ],
+    "description": "Stronger than Elite Skirmisher. Ranged unit equipped with armor vs. archer attacks.",
+    "upgrades_to": null
   },
   {
     "name": "Slinger",
@@ -427,7 +451,9 @@
     "strong_against": [
       "Infantry",
       "Villagers"
-    ]
+    ],
+    "description": "Inca unique unit. Ranged unit with attack bonus vs. infantry.",
+    "upgrades_to": null
   },
   {
     "name": "Condottiero",
@@ -470,7 +496,9 @@
       "siege weapons",
       "Bombard Towers",
       "Bombard Cannons"
-    ]
+    ],
+    "description": "Italian mercenary unit. Quick infantry.",
+    "upgrades_to": null
   },
   {
     "name": "Eagle Scout",
@@ -503,7 +531,9 @@
       "Skirmishers",
       "Scout Cavalry",
       "Archers"
-    ]
+    ],
+    "description": "Fast infantry with extensive sight.",
+    "upgrades_to": "Eagle Warrior"
   },
   {
     "name": "Eagle Scout",
@@ -536,7 +566,9 @@
       "Skirmishers",
       "Scout Cavalry",
       "Archers"
-    ]
+    ],
+    "description": "Fast infantry with extensive sight.",
+    "upgrades_to": "Eagle Warrior"
   },
   {
     "name": "Eagle Scout",
@@ -569,7 +601,9 @@
       "Skirmishers",
       "Scout Cavalry",
       "Archers"
-    ]
+    ],
+    "description": "Fast infantry with extensive sight.",
+    "upgrades_to": "Eagle Warrior"
   },
   {
     "name": "Eagle Warrior",
@@ -607,7 +641,9 @@
       "Archers",
       "siege weapons",
       "Monks"
-    ]
+    ],
+    "description": "Stronger than Eagle Scout. Fast infantry with extensive sight.",
+    "upgrades_to": "Elite Eagle Warrior"
   },
   {
     "name": "Elite Eagle Warrior",
@@ -645,7 +681,9 @@
       "Archers",
       "siege weapons",
       "Monks"
-    ]
+    ],
+    "description": "Stronger than Eagle Warrior. Fast infantry with extensive sight.",
+    "upgrades_to": null
   },
   {
     "name": "Spearman",
@@ -677,7 +715,9 @@
     ],
     "strong_against": [
       "Cavalry"
-    ]
+    ],
+    "description": "Medium infantry.",
+    "upgrades_to": "Pikeman"
   },
   {
     "name": "Pikeman",
@@ -713,7 +753,9 @@
     ],
     "strong_against": [
       "Cavalry"
-    ]
+    ],
+    "description": "Stronger than Spearman. Medium infantry.",
+    "upgrades_to": "Halberdier"
   },
   {
     "name": "Halberdier",
@@ -750,7 +792,9 @@
     ],
     "strong_against": [
       "Cavalry"
-    ]
+    ],
+    "description": "Stronger than Pikeman. Medium infantry.",
+    "upgrades_to": null
   },
   {
     "name": "Militia",
@@ -776,13 +820,17 @@
     "armor_melee": 0,
     "armor_pierce": 1,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)",
-    "weak_against": [],
+    "weak_against": [
+      "Almost everything\\n"
+    ],
     "strong_against": [
       "Skirmishers",
       "Scout Cavalry",
       "Spearmen",
       "Villagers"
-    ]
+    ],
+    "description": "Basic infantry swordsman. Cheap and quick to create.",
+    "upgrades_to": "Man-at-Arms"
   },
   {
     "name": "Man-at-arms",
@@ -818,7 +866,9 @@
       "Eagle Scouts",
       "Spearmen",
       "Villagers"
-    ]
+    ],
+    "description": "Stronger than Militia. Cheap and quick to create.",
+    "upgrades_to": "Long Swordsman"
   },
   {
     "name": "Long Swordsman",
@@ -862,7 +912,9 @@
       "buildings",
       "Light Cavalry",
       "Pikemen"
-    ]
+    ],
+    "description": "Stronger than Man-at-Arms. Cheap and quick to create.",
+    "upgrades_to": "Two-Handed Swordsman"
   },
   {
     "name": "Two-handed Swordsman",
@@ -907,7 +959,9 @@
       "Eagle Warriors",
       "buildings",
       "Light Cavalry"
-    ]
+    ],
+    "description": "Stronger than Long Swordsman. Cheap and quick to create.",
+    "upgrades_to": "Champion"
   },
   {
     "name": "Champion",
@@ -954,7 +1008,9 @@
       "Light Cavalry",
       "Huskarls",
       "Rams"
-    ]
+    ],
+    "description": "Stronger than Two-Handed Swordsman. Cheap and quick to create.",
+    "upgrades_to": null
   },
   {
     "name": "Petard",
@@ -992,7 +1048,9 @@
     "strong_against": [
       "Buildings",
       "siege weapons"
-    ]
+    ],
+    "description": "Demolition infantry unit armed with explosives. Devastating vs. buildings, ineffective vs. other units. Self-destructs when used.",
+    "upgrades_to": null
   },
   {
     "name": "Trebuchet",
@@ -1026,7 +1084,9 @@
     ],
     "strong_against": [
       "Buildings"
-    ]
+    ],
+    "description": "Powerful siege weapon used to destroy buildings, walls from long distance.",
+    "upgrades_to": null
   },
   {
     "name": "Cannon Galleon",
@@ -1059,7 +1119,9 @@
     ],
     "strong_against": [
       "Buildings"
-    ]
+    ],
+    "description": "Long-range warship used to attack targets on shore to establish beachhead.",
+    "upgrades_to": "Elite Cannon Galleon"
   },
   {
     "name": "Elite Cannon Galleon",
@@ -1092,7 +1154,9 @@
     ],
     "strong_against": [
       "Buildings"
-    ]
+    ],
+    "description": "Stronger than Cannon Galleon. Long-range warship used to attack targets on shore to establish beachhead.",
+    "upgrades_to": null
   },
   {
     "name": "Caravel",
@@ -1132,7 +1196,9 @@
       "Fishing Ships",
       "buildings",
       "Cannon Galleons"
-    ]
+    ],
+    "description": "Portuguese unique unit. Boat effective vs. large fleets because each shot damages multiple units.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Caravel",
@@ -1206,7 +1272,9 @@
       "Fishing Ships",
       "Fire Galleys",
       "buildings"
-    ]
+    ],
+    "description": "Filled with explosives. Self-destructs when used.",
+    "upgrades_to": "Demolition Ship"
   },
   {
     "name": "Demolition Ship",
@@ -1243,7 +1311,9 @@
       "Fire Ships",
       "buildings",
       "Cannon Galleons"
-    ]
+    ],
+    "description": "Filled with explosives. Self-destructs when used.",
+    "upgrades_to": "Heavy Demolition Ship"
   },
   {
     "name": "Heavy Demolition Ship",
@@ -1279,7 +1349,9 @@
       "Fishing Ships",
       "buildings",
       "Cannon Galleons"
-    ]
+    ],
+    "description": "Stronger than Demolition Ship. Filled with explosives. Self-destructs when used.",
+    "upgrades_to": null
   },
   {
     "name": "Fire Galley",
@@ -1315,7 +1387,9 @@
       "Fishing Ships",
       "buildings",
       "Galleys"
-    ]
+    ],
+    "description": "Spews fire at other ships. Good at sinking Galleys.",
+    "upgrades_to": "Fire Ship"
   },
   {
     "name": "Fire Ship",
@@ -1355,7 +1429,9 @@
       "buildings",
       "War Galleys",
       "Cannon Galleons"
-    ]
+    ],
+    "description": "Spews fire at other ships. Good at sinking Galleys.",
+    "upgrades_to": "Fast Fire Ship"
   },
   {
     "name": "Fast Fire Ship",
@@ -1395,7 +1471,9 @@
       "buildings",
       "Galleons",
       "Cannon Galleons"
-    ]
+    ],
+    "description": "Stronger than Fire Ship. Spews fire at other ships.",
+    "upgrades_to": null
   },
   {
     "name": "Galley",
@@ -1430,7 +1508,9 @@
       "Transport Ships",
       "Fishing Ships",
       "buildings"
-    ]
+    ],
+    "description": "Small, fast ship with weak attack.",
+    "upgrades_to": "War Galley"
   },
   {
     "name": "War Galley",
@@ -1467,7 +1547,9 @@
       "Transport Ships",
       "Fishing Ships",
       "buildings"
-    ]
+    ],
+    "description": "Stronger than Galley.",
+    "upgrades_to": "Galleon"
   },
   {
     "name": "Galleon",
@@ -1506,7 +1588,9 @@
       "buildings",
       "Demolition Ships",
       "Cannon Galleons"
-    ]
+    ],
+    "description": "Stronger than War Galley.",
+    "upgrades_to": null
   },
   {
     "name": "Longboat",
@@ -1546,7 +1630,9 @@
       "buildings",
       "Cannon Galleons",
       "Galleons"
-    ]
+    ],
+    "description": "Viking unique unit. Fires multiple arrows.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Longboat",
@@ -1612,8 +1698,14 @@
     "armor_melee": 0,
     "armor_pierce": 4,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Fishing_Ship_(Age_of_Empires_II)",
-    "weak_against": [],
-    "strong_against": []
+    "weak_against": [
+      "Everything\\n"
+    ],
+    "strong_against": [
+      "Nothing\\n"
+    ],
+    "description": "Gathers food from jumping fish and Fish Traps.",
+    "upgrades_to": null
   },
   {
     "name": "Trade Cog",
@@ -1639,8 +1731,14 @@
     "armor_melee": 0,
     "armor_pierce": 6,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cog",
-    "weak_against": [],
-    "strong_against": []
+    "weak_against": [
+      "Everything\\n"
+    ],
+    "strong_against": [
+      "Nothing\\n"
+    ],
+    "description": "Used to trade with other players by sea.",
+    "upgrades_to": null
   },
   {
     "name": "Transport Ship",
@@ -1666,8 +1764,14 @@
     "armor_melee": 4,
     "armor_pierce": 8,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Transport_Ship_(Age_of_Empires_II)",
-    "weak_against": [],
-    "strong_against": []
+    "weak_against": [
+      "Everything\\n"
+    ],
+    "strong_against": [
+      "Nothing\\n"
+    ],
+    "description": "Used to move your units across water.",
+    "upgrades_to": null
   },
   {
     "name": "Turtle Ship",
@@ -1704,7 +1808,9 @@
     "strong_against": [
       "Ships",
       "buildings"
-    ]
+    ],
+    "description": "Korean unique unit. Slow, ironclad battleship used to destroy other ships at close range.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Turtle Ship",
@@ -1768,7 +1874,9 @@
     "armor_pierce": 0,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Elephant",
     "weak_against": [],
-    "strong_against": []
+    "strong_against": [],
+    "description": "Scientific name -- Loxodonta africana",
+    "upgrades_to": null
   },
   {
     "name": "Trade Cart",
@@ -1794,8 +1902,14 @@
     "armor_melee": 0,
     "armor_pierce": 0,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cart",
-    "weak_against": [],
-    "strong_against": []
+    "weak_against": [
+      "Everything\\n"
+    ],
+    "strong_against": [
+      "Nothing\\n"
+    ],
+    "description": "Used to trade with other players by land.",
+    "upgrades_to": null
   },
   {
     "name": "Missionary",
@@ -1834,7 +1948,9 @@
     "strong_against": [
       "buildings",
       "Knights"
-    ]
+    ],
+    "description": "Spanish unique unit. Mounted Monk. Converts enemy units and heals friendly units like Monks, but cannot pick up Relics.",
+    "upgrades_to": null
   },
   {
     "name": "Monk",
@@ -1866,7 +1982,11 @@
       "Konnik",
       "Heresy"
     ],
-    "strong_against": []
+    "strong_against": [
+      "Slow non-ranged units\\n"
+    ],
+    "description": "Slow and weak. Converts enemy units, ships to your civilization (player color). Heals wounded villagers, military units (except siege weapons).",
+    "upgrades_to": null
   },
   {
     "name": "Bombard Cannon",
@@ -1902,7 +2022,9 @@
       "archers",
       "Mangonels",
       "Trebuchets"
-    ]
+    ],
+    "description": "Powerful mobile anti-building siege weapon.",
+    "upgrades_to": null
   },
   {
     "name": "Mangonel",
@@ -1938,7 +2060,9 @@
       "archers",
       "Mangonels",
       "Trebuchets"
-    ]
+    ],
+    "description": "Powerful mobile anti-building siege weapon.",
+    "upgrades_to": null
   },
   {
     "name": "Onager",
@@ -1977,7 +2101,9 @@
       "Buildings",
       "Villagers",
       "archers"
-    ]
+    ],
+    "description": "Stronger than Mangonel. Wheeled siege weapon used to attack a small mass of units.",
+    "upgrades_to": "Siege Onager"
   },
   {
     "name": "Siege Onager",
@@ -2016,7 +2142,9 @@
       "Buildings",
       "Villagers",
       "archers"
-    ]
+    ],
+    "description": "Stronger than Onager. Wheeled siege weapon used to attack a small mass of units.",
+    "upgrades_to": null
   },
   {
     "name": "Battering Ram",
@@ -2050,7 +2178,9 @@
     "strong_against": [
       "Buildings",
       "Trebuchets"
-    ]
+    ],
+    "description": "Slow, lumbering siege weapon used to reduce enemy towns to ruins.",
+    "upgrades_to": "Capped Ram"
   },
   {
     "name": "Capped Ram",
@@ -2084,7 +2214,9 @@
     "strong_against": [
       "Buildings",
       "Trebuchets"
-    ]
+    ],
+    "description": "Stronger than Battering Ram. Slow, lumbering siege weapon used to reduce enemy towns to ruins.",
+    "upgrades_to": "Siege Ram"
   },
   {
     "name": "Siege Ram",
@@ -2118,7 +2250,9 @@
     "strong_against": [
       "Buildings",
       "Trebuchets"
-    ]
+    ],
+    "description": "Stronger than Capped Ram. Slow, lumbering siege weapon used to reduce enemy towns to ruins.",
+    "upgrades_to": null
   },
   {
     "name": "Siege Tower",
@@ -2148,7 +2282,11 @@
       "Magyar Huszars",
       "Eagle Warriors"
     ],
-    "strong_against": []
+    "strong_against": [
+      "Nothing\\n"
+    ],
+    "description": "Siege weapon used to scale enemy walls; resistant to archer attack.",
+    "upgrades_to": null
   },
   {
     "name": "Scorpion",
@@ -2187,7 +2325,9 @@
       "Buildings",
       "Villagers",
       "archers"
-    ]
+    ],
+    "description": "Light artillery that fires large arrowlike bolts.",
+    "upgrades_to": "Heavy Scorpion"
   },
   {
     "name": "Heavy Scorpion",
@@ -2225,7 +2365,9 @@
     "strong_against": [
       "Buildings",
       "archers"
-    ]
+    ],
+    "description": "Stronger than Scorpion. Light artillery that fires large arrowlike bolts.",
+    "upgrades_to": null
   },
   {
     "name": "Battle Elephant",
@@ -2264,7 +2406,9 @@
     ],
     "strong_against": [
       "buildings"
-    ]
+    ],
+    "description": "Slow and heavy cavalry.",
+    "upgrades_to": "Elite Battle Elephant"
   },
   {
     "name": "Elite Battle Elephant",
@@ -2303,7 +2447,9 @@
     ],
     "strong_against": [
       "buildings"
-    ]
+    ],
+    "description": "Stronger than Battle Elephant. Slow and heavy cavalry.",
+    "upgrades_to": null
   },
   {
     "name": "Camel",
@@ -2340,7 +2486,9 @@
       "siege weapons",
       "Cavalry Archers",
       "cavalry"
-    ]
+    ],
+    "description": "Excels at killing other mounted units.",
+    "upgrades_to": "Heavy Camel Rider"
   },
   {
     "name": "Heavy Camel",
@@ -2376,7 +2524,9 @@
       "siege weapons",
       "Cavalry Archers",
       "cavalry"
-    ]
+    ],
+    "description": "Stronger than Camel. Excels at killing other mounted units.",
+    "upgrades_to": "Imperial Camel Rider"
   },
   {
     "name": "Imperial Camel",
@@ -2413,7 +2563,9 @@
       "siege weapons",
       "Cavalry Archers",
       "cavalry"
-    ]
+    ],
+    "description": "Stronger than Heavy Camel. Excels at killing other mounted units.",
+    "upgrades_to": null
   },
   {
     "name": "Knight",
@@ -2458,7 +2610,9 @@
       "siege weapons",
       "Cavalry Archers",
       "Light Cavalry"
-    ]
+    ],
+    "description": "Fast and heavy cavalry.",
+    "upgrades_to": "Cavalier"
   },
   {
     "name": "Cavalier",
@@ -2503,7 +2657,9 @@
       "siege weapons",
       "Cavalry Archers",
       "Light Cavalry"
-    ]
+    ],
+    "description": "Stronger than Knight. Fast and heavy cavalry.",
+    "upgrades_to": "Paladin"
   },
   {
     "name": "Paladin",
@@ -2548,7 +2704,9 @@
       "siege weapons",
       "Cavalry Archers",
       "Light Cavalry"
-    ]
+    ],
+    "description": "Stronger than Cavalier. Fast and heavy cavalry.",
+    "upgrades_to": null
   },
   {
     "name": "Scout Cavalry",
@@ -2584,7 +2742,9 @@
       "siege weapons",
       "Archers",
       "Monks"
-    ]
+    ],
+    "description": "Fast with extensive line of sight.",
+    "upgrades_to": "Light Cavalry"
   },
   {
     "name": "Scout Cavalry",
@@ -2620,7 +2780,9 @@
       "siege weapons",
       "Archers",
       "Monks"
-    ]
+    ],
+    "description": "Fast with extensive line of sight.",
+    "upgrades_to": "Light Cavalry"
   },
   {
     "name": "Light Cavalry",
@@ -2656,7 +2818,9 @@
       "siege weapons",
       "archers",
       "Monks"
-    ]
+    ],
+    "description": "Stronger than Scout Cavalry. Fast with extensive line of sight.",
+    "upgrades_to": "Hussar"
   },
   {
     "name": "Hussar",
@@ -2690,7 +2854,9 @@
       "Archers",
       "siege weapons",
       "Monks"
-    ]
+    ],
+    "description": "Stronger than Light Cavalry. Fast with extensive line of sight.",
+    "upgrades_to": null
   },
   {
     "name": "Tarkan",
@@ -2728,7 +2894,9 @@
       "siege weapons",
       "Light Cavalry",
       "buildings"
-    ]
+    ],
+    "description": "Hun unique unit. Cavalry with attack bonus vs. buildings.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Tarkan",
@@ -2792,13 +2960,17 @@
     "armor_melee": 0,
     "armor_pierce": 0,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Villager_(Age_of_Empires_II)",
-    "weak_against": [],
+    "weak_against": [
+      "Almost everything\\n"
+    ],
     "strong_against": [
       "buildings",
       "Skirmishers",
       "rams",
       "Trebuchets"
-    ]
+    ],
+    "description": "Gathers wood, food, stone, gold. Builds and repairs buildings. Also repairs ships, siege weapons.",
+    "upgrades_to": null
   },
   {
     "name": "Arambai",
@@ -2841,7 +3013,9 @@
       "Villagers",
       "Monks",
       "Archers"
-    ]
+    ],
+    "description": "Burmese unique unit. Mounted dart thrower.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Arambai",
@@ -2930,7 +3104,9 @@
       "infantry",
       "buildings",
       "naval vessels"
-    ]
+    ],
+    "description": "Khmer unique unit. Heavy cavalry equipped with a Scorpion. Can fell trees.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Ballista Elephant",
@@ -3020,7 +3196,9 @@
       "Eagle Warriors",
       "buildings",
       "Light Cavalry"
-    ]
+    ],
+    "description": "Viking unique unit. Infantry that slowly heals itself.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Berserk",
@@ -3106,7 +3284,9 @@
     ],
     "strong_against": [
       "Skirmishers"
-    ]
+    ],
+    "description": "Slavic Unique Unit. Heavily armored cavalry; resistant to melee attack.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Boyar",
@@ -3183,7 +3363,9 @@
     "strong_against": [
       "Cavalry Archers",
       "Mangudai"
-    ]
+    ],
+    "description": "Berber unique unit. Cavalry archer with an attack bonus vs. cavalry archers.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Camel Archer",
@@ -3255,7 +3437,9 @@
       "infantry",
       "siege weapons",
       "Light Cavalry"
-    ]
+    ],
+    "description": "Byzantine unique unit. Heavily armored cavalry.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Cataphract",
@@ -3331,7 +3515,9 @@
       "Infantry",
       "buildings",
       "Rams"
-    ]
+    ],
+    "description": "Chinese unique unit. Archer with mediocre range. Fires large number of arrows very quickly.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Chu Ko Nu",
@@ -3412,7 +3598,9 @@
     "strong_against": [
       "Infantry",
       "Rams"
-    ]
+    ],
+    "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Conquistador",
@@ -3496,7 +3684,9 @@
     "strong_against": [
       "archers",
       "buildings"
-    ]
+    ],
+    "description": "Indian unique unit. Heavy mounted archer.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Elephant Archer",
@@ -3581,7 +3771,9 @@
       "Cavalry Archers",
       "Battering Rams",
       "infantry"
-    ]
+    ],
+    "description": "Malian unique unit. Quick infantry unit with a high ranged attack.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Gbeto",
@@ -3662,7 +3854,9 @@
       "Cavalry",
       "Cavalry Archers",
       "infantry"
-    ]
+    ],
+    "description": "Italian unique unit. Anti cavalry archery unit.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Genoese Crossbowman",
@@ -3735,7 +3929,9 @@
       "Eagle Warriors",
       "Scorpions",
       "gunpowder units"
-    ]
+    ],
+    "description": "Gothic unique unit. Infantry with substantial pierce armor, virtually immune to archer fire.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Huskarl",
@@ -3812,7 +4008,9 @@
       "Skirmishers",
       "infantry",
       "buildings"
-    ]
+    ],
+    "description": "Aztec unique unit. Attack bonus vs. other infantry.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Jaguar Warrior",
@@ -3892,7 +4090,9 @@
     "strong_against": [
       "Infantry",
       "buildings"
-    ]
+    ],
+    "description": "Turkish unique unit. Hand Cannoneer with longer range and no minimum range. Powerful close attack, but inaccurate at range.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Janissary",
@@ -3972,7 +4172,9 @@
       "cavalry",
       "Cavalry Archers",
       "Spearmen"
-    ]
+    ],
+    "description": "Inca unique unit. Infantry unit with attack bonus vs. cavalry. Carries a long spear to infiltrate formations.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Kamayuk",
@@ -4062,7 +4264,9 @@
       "Halberdiers",
       "Eagle Warriors",
       "Rams"
-    ]
+    ],
+    "description": "Malay unique unit. Cheap and weak infantry unit that only takes half a population spot.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Karambit Warrior",
@@ -4148,7 +4352,9 @@
     "strong_against": [
       "Infantry",
       "archers"
-    ]
+    ],
+    "description": "British unique unit. Powerful archer with long range.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Longbowman",
@@ -4226,7 +4432,9 @@
     "strong_against": [
       "Siege weapons",
       "archers"
-    ]
+    ],
+    "description": "Magyar unique unit. Light cavalry unit with a bonus vs. siege",
+    "upgrades_to": null
   },
   {
     "name": "Elite Magyar Huszar",
@@ -4301,7 +4509,9 @@
       "Siege weapons",
       "Cavalry Archers",
       "cavalry"
-    ]
+    ],
+    "description": "Saracen unique unit. Camel with hand-to-hand attack at distance. Excels vs. other mounted units.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Mameluke",
@@ -4378,7 +4588,9 @@
       "Infantry",
       "Villagers",
       "Rams"
-    ]
+    ],
+    "description": "Mongol unique unit. Cavalry archer with attack bonus vs. siege weapons.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Mangudai",
@@ -4457,7 +4669,9 @@
     "strong_against": [
       "Villagers",
       "Skirmishers"
-    ]
+    ],
+    "description": "Portuguese unique unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Organ Gun",
@@ -4534,7 +4748,9 @@
       "Infantry",
       "archers",
       "Hand Cannoneers"
-    ]
+    ],
+    "description": "Mayan unique unit. Strong, fast, well-armored archer with less attack than other archers.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Plumed Archer",
@@ -4609,7 +4825,9 @@
     "strong_against": [
       "Archers",
       "infantry"
-    ]
+    ],
+    "description": "Vietnamese unique unit. Heavily armored Archer.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Rattan Archer",
@@ -4693,7 +4911,9 @@
       "War Elephants",
       "Mamelukes",
       "Throwing Axemen"
-    ]
+    ],
+    "description": "Japanese unique unit. Infantry with fast attack.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Samurai",
@@ -4782,7 +5002,9 @@
       "siege weapons",
       "Light Cavalry",
       "Monks"
-    ]
+    ],
+    "description": "Ethiopian unique unit. Cheap infantry unit with high creation speed.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Shotel Warrior",
@@ -4860,7 +5082,9 @@
       "siege weapons",
       "Light Cavalry",
       "buildings"
-    ]
+    ],
+    "description": "Hun unique unit. Cavalry with attack bonus vs. buildings.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Tarkan",
@@ -4939,7 +5163,9 @@
     "strong_against": [
       "Skirmishers",
       "buildings"
-    ]
+    ],
+    "description": "Teutonic unique unit. Infantry with effective armor and slow but powerful attack.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Teutonic Knight",
@@ -5027,7 +5253,9 @@
       "Light Cavalry",
       "Huskarls",
       "Camel Riders"
-    ]
+    ],
+    "description": "Frankish unique unit. Infantry with ranged attack.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Throwing Axeman",
@@ -5111,7 +5339,9 @@
     ],
     "strong_against": [
       "Buildings"
-    ]
+    ],
+    "description": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry.",
+    "upgrades_to": null
   },
   {
     "name": "Elite War Elephant",
@@ -5191,7 +5421,9 @@
     "strong_against": [
       "Infantry",
       "archers"
-    ]
+    ],
+    "description": "Korean unique unit. Heavily armored horse-drawn archer unit.",
+    "upgrades_to": null
   },
   {
     "name": "Elite War Wagon",
@@ -5279,7 +5511,9 @@
       "buildings",
       "Light Cavalry",
       "Huskarls"
-    ]
+    ],
+    "description": "Celtic unique unit. Exceptionally quick infantry.",
+    "upgrades_to": null
   },
   {
     "name": "Elite Woad Raider",
