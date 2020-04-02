@@ -156,7 +156,7 @@
       "Rattan Archers"
     ],
     "strong_against": [
-      "Slow and non-ranged units\\n"
+      "Slow and non-ranged units"
     ],
     "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
     "upgrades_to": "Heavy Cavalry Archer",
@@ -200,7 +200,7 @@
       "Rattan Archers"
     ],
     "strong_against": [
-      "Slow and non-ranged units\\n"
+      "Slow and non-ranged units"
     ],
     "description": "Stronger than Cavalry Archer. Fast, with ranged attack.",
     "upgrades_to": null,
@@ -842,7 +842,7 @@
     "armor_pierce": 1,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)",
     "weak_against": [
-      "Almost everything\\n"
+      "Almost everything"
     ],
     "strong_against": [
       "Skirmishers",
@@ -1742,10 +1742,10 @@
     "armor_pierce": 4,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Fishing_Ship_(Age_of_Empires_II)",
     "weak_against": [
-      "Everything\\n"
+      "Everything"
     ],
     "strong_against": [
-      "Nothing\\n"
+      "Nothing"
     ],
     "description": "Gathers food from jumping fish and Fish Traps.",
     "upgrades_to": null,
@@ -1776,10 +1776,10 @@
     "armor_pierce": 6,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cog",
     "weak_against": [
-      "Everything\\n"
+      "Everything"
     ],
     "strong_against": [
-      "Nothing\\n"
+      "Nothing"
     ],
     "description": "Used to trade with other players by sea.",
     "upgrades_to": null,
@@ -1810,10 +1810,10 @@
     "armor_pierce": 8,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Transport_Ship_(Age_of_Empires_II)",
     "weak_against": [
-      "Everything\\n"
+      "Everything"
     ],
     "strong_against": [
-      "Nothing\\n"
+      "Nothing"
     ],
     "description": "Used to move your units across water.",
     "upgrades_to": null,
@@ -1922,10 +1922,10 @@
     "armor_pierce": 0,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Trade_Cart",
     "weak_against": [
-      "Everything\\n"
+      "Everything"
     ],
     "strong_against": [
-      "Nothing\\n"
+      "Nothing"
     ],
     "description": "Used to trade with other players by land.",
     "upgrades_to": null,
@@ -2004,7 +2004,7 @@
       "Heresy"
     ],
     "strong_against": [
-      "Slow non-ranged units\\n"
+      "Slow non-ranged units"
     ],
     "description": "Slow and weak. Converts enemy units, ships to your civilization (player color). Heals wounded villagers, military units (except siege weapons).",
     "upgrades_to": null,
@@ -2312,7 +2312,7 @@
       "Eagle Warriors"
     ],
     "strong_against": [
-      "Nothing\\n"
+      "Nothing"
     ],
     "description": "Siege weapon used to scale enemy walls; resistant to archer attack.",
     "upgrades_to": null,
@@ -3007,7 +3007,7 @@
     "armor_pierce": 0,
     "wiki_url": "https://ageofempires.fandom.com/wiki/Villager_(Age_of_Empires_II)",
     "weak_against": [
-      "Almost everything\\n"
+      "Almost everything"
     ],
     "strong_against": [
       "buildings",
