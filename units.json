@@ -33,7 +33,8 @@
       "Villagers"
     ],
     "description": "Quick and light. Weak at close range; excels at battle from distance.",
-    "upgrades_to": "Crossbowman"
+    "upgrades_to": "Crossbowman",
+    "unique_civilization": null
   },
   {
     "name": "Crossbowman",
@@ -74,7 +75,8 @@
       "Villagers"
     ],
     "description": "Stronger than Archer. Quick and light.",
-    "upgrades_to": "Arbalester"
+    "upgrades_to": "Arbalester",
+    "unique_civilization": "Spanish"
   },
   {
     "name": "Arbalester",
@@ -115,7 +117,8 @@
       "Villagers"
     ],
     "description": "Stronger than Crosbowman. Quick and light.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Cavalry Archer",
@@ -156,7 +159,8 @@
       "Slow and non-ranged units\\n"
     ],
     "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
-    "upgrades_to": "Heavy Cavalry Archer"
+    "upgrades_to": "Heavy Cavalry Archer",
+    "unique_civilization": null
   },
   {
     "name": "Heavy Cavalry Archer",
@@ -199,7 +203,8 @@
       "Slow and non-ranged units\\n"
     ],
     "description": "Stronger than Cavalry Archer. Fast, with ranged attack.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Genitour",
@@ -238,7 +243,8 @@
       "Cavalry Archers"
     ],
     "description": "Berber unique unit. Mounted Skirmisher.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Genitour",
+    "unique_civilization": "Berbers"
   },
   {
     "name": "Elite Genitour",
@@ -275,7 +281,8 @@
     "strong_against": [
       "Archers",
       "Cavalry Archers"
-    ]
+    ],
+    "unique_civilization": "Berbers"
   },
   {
     "name": "Hand Cannoneer",
@@ -313,7 +320,8 @@
       "Infantry"
     ],
     "description": "Powerful close attack; inaccurate at range.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Skirmisher",
@@ -346,7 +354,8 @@
       "Archers"
     ],
     "description": "Ranged unit equipped with armor vs. archer attacks.",
-    "upgrades_to": "Elite Skirmisher"
+    "upgrades_to": "Elite Skirmisher",
+    "unique_civilization": null
   },
   {
     "name": "Elite Skirmisher",
@@ -379,7 +388,8 @@
       "Archers"
     ],
     "description": "Stronger than Skirmisher. Ranged unit equipped with armor vs. archer attacks.",
-    "upgrades_to": "Imperial Skirmisher"
+    "upgrades_to": "Imperial Skirmisher",
+    "unique_civilization": null
   },
   {
     "name": "Imperial Skirmisher",
@@ -413,7 +423,8 @@
       "Pikemen"
     ],
     "description": "Stronger than Elite Skirmisher. Ranged unit equipped with armor vs. archer attacks.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Vietnamese"
   },
   {
     "name": "Slinger",
@@ -453,7 +464,8 @@
       "Villagers"
     ],
     "description": "Inca unique unit. Ranged unit with attack bonus vs. infantry.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Incas"
   },
   {
     "name": "Condottiero",
@@ -498,7 +510,8 @@
       "Bombard Cannons"
     ],
     "description": "Italian mercenary unit. Quick infantry.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Italians"
   },
   {
     "name": "Eagle Scout",
@@ -533,7 +546,8 @@
       "Archers"
     ],
     "description": "Fast infantry with extensive sight.",
-    "upgrades_to": "Eagle Warrior"
+    "upgrades_to": "Eagle Warrior",
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Eagle Scout",
@@ -568,7 +582,8 @@
       "Archers"
     ],
     "description": "Fast infantry with extensive sight.",
-    "upgrades_to": "Eagle Warrior"
+    "upgrades_to": "Eagle Warrior",
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Eagle Scout",
@@ -603,7 +618,8 @@
       "Archers"
     ],
     "description": "Fast infantry with extensive sight.",
-    "upgrades_to": "Eagle Warrior"
+    "upgrades_to": "Eagle Warrior",
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Eagle Warrior",
@@ -643,7 +659,8 @@
       "Monks"
     ],
     "description": "Stronger than Eagle Scout. Fast infantry with extensive sight.",
-    "upgrades_to": "Elite Eagle Warrior"
+    "upgrades_to": "Elite Eagle Warrior",
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Elite Eagle Warrior",
@@ -683,7 +700,8 @@
       "Monks"
     ],
     "description": "Stronger than Eagle Warrior. Fast infantry with extensive sight.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Spearman",
@@ -717,7 +735,8 @@
       "Cavalry"
     ],
     "description": "Medium infantry.",
-    "upgrades_to": "Pikeman"
+    "upgrades_to": "Pikeman",
+    "unique_civilization": null
   },
   {
     "name": "Pikeman",
@@ -755,7 +774,8 @@
       "Cavalry"
     ],
     "description": "Stronger than Spearman. Medium infantry.",
-    "upgrades_to": "Halberdier"
+    "upgrades_to": "Halberdier",
+    "unique_civilization": null
   },
   {
     "name": "Halberdier",
@@ -794,7 +814,8 @@
       "Cavalry"
     ],
     "description": "Stronger than Pikeman. Medium infantry.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Militia",
@@ -830,7 +851,8 @@
       "Villagers"
     ],
     "description": "Basic infantry swordsman. Cheap and quick to create.",
-    "upgrades_to": "Man-at-Arms"
+    "upgrades_to": "Man-at-Arms",
+    "unique_civilization": null
   },
   {
     "name": "Man-at-arms",
@@ -868,7 +890,8 @@
       "Villagers"
     ],
     "description": "Stronger than Militia. Cheap and quick to create.",
-    "upgrades_to": "Long Swordsman"
+    "upgrades_to": "Long Swordsman",
+    "unique_civilization": null
   },
   {
     "name": "Long Swordsman",
@@ -914,7 +937,8 @@
       "Pikemen"
     ],
     "description": "Stronger than Man-at-Arms. Cheap and quick to create.",
-    "upgrades_to": "Two-Handed Swordsman"
+    "upgrades_to": "Two-Handed Swordsman",
+    "unique_civilization": null
   },
   {
     "name": "Two-handed Swordsman",
@@ -961,7 +985,8 @@
       "Light Cavalry"
     ],
     "description": "Stronger than Long Swordsman. Cheap and quick to create.",
-    "upgrades_to": "Champion"
+    "upgrades_to": "Champion",
+    "unique_civilization": null
   },
   {
     "name": "Champion",
@@ -1010,7 +1035,8 @@
       "Rams"
     ],
     "description": "Stronger than Two-Handed Swordsman. Cheap and quick to create.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Petard",
@@ -1050,7 +1076,8 @@
       "siege weapons"
     ],
     "description": "Demolition infantry unit armed with explosives. Devastating vs. buildings, ineffective vs. other units. Self-destructs when used.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Trebuchet",
@@ -1086,7 +1113,8 @@
       "Buildings"
     ],
     "description": "Powerful siege weapon used to destroy buildings, walls from long distance.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Cannon Galleon",
@@ -1121,7 +1149,8 @@
       "Buildings"
     ],
     "description": "Long-range warship used to attack targets on shore to establish beachhead.",
-    "upgrades_to": "Elite Cannon Galleon"
+    "upgrades_to": "Elite Cannon Galleon",
+    "unique_civilization": null
   },
   {
     "name": "Elite Cannon Galleon",
@@ -1156,7 +1185,8 @@
       "Buildings"
     ],
     "description": "Stronger than Cannon Galleon. Long-range warship used to attack targets on shore to establish beachhead.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Caravel",
@@ -1198,7 +1228,8 @@
       "Cannon Galleons"
     ],
     "description": "Portuguese unique unit. Boat effective vs. large fleets because each shot damages multiple units.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Caravel",
+    "unique_civilization": "Portuguese"
   },
   {
     "name": "Elite Caravel",
@@ -1238,7 +1269,8 @@
       "Fishing Ships",
       "buildings",
       "Cannon Galleons"
-    ]
+    ],
+    "unique_civilization": "Portuguese"
   },
   {
     "name": "Demolition Raft",
@@ -1274,7 +1306,8 @@
       "buildings"
     ],
     "description": "Filled with explosives. Self-destructs when used.",
-    "upgrades_to": "Demolition Ship"
+    "upgrades_to": "Demolition Ship",
+    "unique_civilization": null
   },
   {
     "name": "Demolition Ship",
@@ -1313,7 +1346,8 @@
       "Cannon Galleons"
     ],
     "description": "Filled with explosives. Self-destructs when used.",
-    "upgrades_to": "Heavy Demolition Ship"
+    "upgrades_to": "Heavy Demolition Ship",
+    "unique_civilization": null
   },
   {
     "name": "Heavy Demolition Ship",
@@ -1351,7 +1385,8 @@
       "Cannon Galleons"
     ],
     "description": "Stronger than Demolition Ship. Filled with explosives. Self-destructs when used.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Fire Galley",
@@ -1389,7 +1424,8 @@
       "Galleys"
     ],
     "description": "Spews fire at other ships. Good at sinking Galleys.",
-    "upgrades_to": "Fire Ship"
+    "upgrades_to": "Fire Ship",
+    "unique_civilization": null
   },
   {
     "name": "Fire Ship",
@@ -1431,7 +1467,8 @@
       "Cannon Galleons"
     ],
     "description": "Spews fire at other ships. Good at sinking Galleys.",
-    "upgrades_to": "Fast Fire Ship"
+    "upgrades_to": "Fast Fire Ship",
+    "unique_civilization": null
   },
   {
     "name": "Fast Fire Ship",
@@ -1473,7 +1510,8 @@
       "Cannon Galleons"
     ],
     "description": "Stronger than Fire Ship. Spews fire at other ships.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Galley",
@@ -1510,7 +1548,8 @@
       "buildings"
     ],
     "description": "Small, fast ship with weak attack.",
-    "upgrades_to": "War Galley"
+    "upgrades_to": "War Galley",
+    "unique_civilization": null
   },
   {
     "name": "War Galley",
@@ -1549,7 +1588,8 @@
       "buildings"
     ],
     "description": "Stronger than Galley.",
-    "upgrades_to": "Galleon"
+    "upgrades_to": "Galleon",
+    "unique_civilization": null
   },
   {
     "name": "Galleon",
@@ -1590,7 +1630,8 @@
       "Cannon Galleons"
     ],
     "description": "Stronger than War Galley.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Malians"
   },
   {
     "name": "Longboat",
@@ -1632,7 +1673,8 @@
       "Galleons"
     ],
     "description": "Viking unique unit. Fires multiple arrows.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Longboat",
+    "unique_civilization": "Vikings"
   },
   {
     "name": "Elite Longboat",
@@ -1672,7 +1714,8 @@
       "buildings",
       "Cannon Galleons",
       "Galleons"
-    ]
+    ],
+    "unique_civilization": "Vikings"
   },
   {
     "name": "Fishing Ship",
@@ -1705,7 +1748,8 @@
       "Nothing\\n"
     ],
     "description": "Gathers food from jumping fish and Fish Traps.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Trade Cog",
@@ -1738,7 +1782,8 @@
       "Nothing\\n"
     ],
     "description": "Used to trade with other players by sea.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Transport Ship",
@@ -1771,7 +1816,8 @@
       "Nothing\\n"
     ],
     "description": "Used to move your units across water.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Turtle Ship",
@@ -1810,7 +1856,8 @@
       "buildings"
     ],
     "description": "Korean unique unit. Slow, ironclad battleship used to destroy other ships at close range.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Turtle Ship",
+    "unique_civilization": "Koreans"
   },
   {
     "name": "Elite Turtle Ship",
@@ -1847,36 +1894,8 @@
     "strong_against": [
       "Ships",
       "buildings"
-    ]
-  },
-  {
-    "name": "Elephant",
-    "key": "elephant",
-    "type1": "Animal",
-    "type2": "",
-    "building": "Gaia",
-    "age": "Dark",
-    "food": 0,
-    "wood": 0,
-    "gold": 0,
-    "total_cost": 0,
-    "build_time": null,
-    "attack_speed": 2.0,
-    "delay": 0.0,
-    "movement_speed": 0.96,
-    "line_of_sight": 4,
-    "hp": 75,
-    "range_min": null,
-    "range": null,
-    "damage": 7,
-    "accuracy": 1.0,
-    "armor_melee": 0,
-    "armor_pierce": 0,
-    "wiki_url": "https://ageofempires.fandom.com/wiki/Elephant",
-    "weak_against": [],
-    "strong_against": [],
-    "description": "Scientific name -- Loxodonta africana",
-    "upgrades_to": null
+    ],
+    "unique_civilization": "Koreans"
   },
   {
     "name": "Trade Cart",
@@ -1909,7 +1928,8 @@
       "Nothing\\n"
     ],
     "description": "Used to trade with other players by land.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Missionary",
@@ -1950,7 +1970,8 @@
       "Knights"
     ],
     "description": "Spanish unique unit. Mounted Monk. Converts enemy units and heals friendly units like Monks, but cannot pick up Relics.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Spanish"
   },
   {
     "name": "Monk",
@@ -1986,7 +2007,8 @@
       "Slow non-ranged units\\n"
     ],
     "description": "Slow and weak. Converts enemy units, ships to your civilization (player color). Heals wounded villagers, military units (except siege weapons).",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Bombard Cannon",
@@ -2024,7 +2046,8 @@
       "Trebuchets"
     ],
     "description": "Powerful mobile anti-building siege weapon.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Mangonel",
@@ -2062,7 +2085,8 @@
       "Trebuchets"
     ],
     "description": "Powerful mobile anti-building siege weapon.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Onager",
@@ -2103,7 +2127,8 @@
       "archers"
     ],
     "description": "Stronger than Mangonel. Wheeled siege weapon used to attack a small mass of units.",
-    "upgrades_to": "Siege Onager"
+    "upgrades_to": "Siege Onager",
+    "unique_civilization": null
   },
   {
     "name": "Siege Onager",
@@ -2144,7 +2169,8 @@
       "archers"
     ],
     "description": "Stronger than Onager. Wheeled siege weapon used to attack a small mass of units.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Battering Ram",
@@ -2180,7 +2206,8 @@
       "Trebuchets"
     ],
     "description": "Slow, lumbering siege weapon used to reduce enemy towns to ruins.",
-    "upgrades_to": "Capped Ram"
+    "upgrades_to": "Capped Ram",
+    "unique_civilization": null
   },
   {
     "name": "Capped Ram",
@@ -2216,7 +2243,8 @@
       "Trebuchets"
     ],
     "description": "Stronger than Battering Ram. Slow, lumbering siege weapon used to reduce enemy towns to ruins.",
-    "upgrades_to": "Siege Ram"
+    "upgrades_to": "Siege Ram",
+    "unique_civilization": null
   },
   {
     "name": "Siege Ram",
@@ -2252,7 +2280,8 @@
       "Trebuchets"
     ],
     "description": "Stronger than Capped Ram. Slow, lumbering siege weapon used to reduce enemy towns to ruins.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Siege Tower",
@@ -2286,7 +2315,8 @@
       "Nothing\\n"
     ],
     "description": "Siege weapon used to scale enemy walls; resistant to archer attack.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Scorpion",
@@ -2327,7 +2357,8 @@
       "archers"
     ],
     "description": "Light artillery that fires large arrowlike bolts.",
-    "upgrades_to": "Heavy Scorpion"
+    "upgrades_to": "Heavy Scorpion",
+    "unique_civilization": null
   },
   {
     "name": "Heavy Scorpion",
@@ -2367,7 +2398,8 @@
       "archers"
     ],
     "description": "Stronger than Scorpion. Light artillery that fires large arrowlike bolts.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Battle Elephant",
@@ -2408,7 +2440,8 @@
       "buildings"
     ],
     "description": "Slow and heavy cavalry.",
-    "upgrades_to": "Elite Battle Elephant"
+    "upgrades_to": "Elite Battle Elephant",
+    "unique_civilization": "Burmese"
   },
   {
     "name": "Elite Battle Elephant",
@@ -2449,7 +2482,8 @@
       "buildings"
     ],
     "description": "Stronger than Battle Elephant. Slow and heavy cavalry.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Burmese"
   },
   {
     "name": "Camel",
@@ -2488,7 +2522,8 @@
       "cavalry"
     ],
     "description": "Excels at killing other mounted units.",
-    "upgrades_to": "Heavy Camel Rider"
+    "upgrades_to": "Heavy Camel Rider",
+    "unique_civilization": null
   },
   {
     "name": "Heavy Camel",
@@ -2526,7 +2561,8 @@
       "cavalry"
     ],
     "description": "Stronger than Camel. Excels at killing other mounted units.",
-    "upgrades_to": "Imperial Camel Rider"
+    "upgrades_to": "Imperial Camel Rider",
+    "unique_civilization": null
   },
   {
     "name": "Imperial Camel",
@@ -2565,7 +2601,8 @@
       "cavalry"
     ],
     "description": "Stronger than Heavy Camel. Excels at killing other mounted units.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Indians"
   },
   {
     "name": "Knight",
@@ -2612,7 +2649,8 @@
       "Light Cavalry"
     ],
     "description": "Fast and heavy cavalry.",
-    "upgrades_to": "Cavalier"
+    "upgrades_to": "Cavalier",
+    "unique_civilization": null
   },
   {
     "name": "Cavalier",
@@ -2659,7 +2697,8 @@
       "Light Cavalry"
     ],
     "description": "Stronger than Knight. Fast and heavy cavalry.",
-    "upgrades_to": "Paladin"
+    "upgrades_to": "Paladin",
+    "unique_civilization": null
   },
   {
     "name": "Paladin",
@@ -2706,7 +2745,8 @@
       "Light Cavalry"
     ],
     "description": "Stronger than Cavalier. Fast and heavy cavalry.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Scout Cavalry",
@@ -2744,7 +2784,8 @@
       "Monks"
     ],
     "description": "Fast with extensive line of sight.",
-    "upgrades_to": "Light Cavalry"
+    "upgrades_to": "Light Cavalry",
+    "unique_civilization": null
   },
   {
     "name": "Scout Cavalry",
@@ -2782,7 +2823,8 @@
       "Monks"
     ],
     "description": "Fast with extensive line of sight.",
-    "upgrades_to": "Light Cavalry"
+    "upgrades_to": "Light Cavalry",
+    "unique_civilization": null
   },
   {
     "name": "Light Cavalry",
@@ -2820,7 +2862,8 @@
       "Monks"
     ],
     "description": "Stronger than Scout Cavalry. Fast with extensive line of sight.",
-    "upgrades_to": "Hussar"
+    "upgrades_to": "Hussar",
+    "unique_civilization": null
   },
   {
     "name": "Hussar",
@@ -2856,7 +2899,8 @@
       "Monks"
     ],
     "description": "Stronger than Light Cavalry. Fast with extensive line of sight.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Tarkan",
@@ -2896,7 +2940,8 @@
       "buildings"
     ],
     "description": "Hun unique unit. Cavalry with attack bonus vs. buildings.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Tarkan",
+    "unique_civilization": "Huns"
   },
   {
     "name": "Elite Tarkan",
@@ -2934,7 +2979,8 @@
       "siege weapons",
       "Light Cavalry",
       "buildings"
-    ]
+    ],
+    "unique_civilization": "Huns"
   },
   {
     "name": "Villager",
@@ -2970,7 +3016,8 @@
       "Trebuchets"
     ],
     "description": "Gathers wood, food, stone, gold. Builds and repairs buildings. Also repairs ships, siege weapons.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": null
   },
   {
     "name": "Arambai",
@@ -3015,7 +3062,8 @@
       "Archers"
     ],
     "description": "Burmese unique unit. Mounted dart thrower.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Arambai",
+    "unique_civilization": "Burmese"
   },
   {
     "name": "Elite Arambai",
@@ -3058,7 +3106,8 @@
       "Villagers",
       "Monks",
       "Archers"
-    ]
+    ],
+    "unique_civilization": "Burmese"
   },
   {
     "name": "Ballista Elephant",
@@ -3106,7 +3155,8 @@
       "naval vessels"
     ],
     "description": "Khmer unique unit. Heavy cavalry equipped with a Scorpion. Can fell trees.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Ballista Elephant",
+    "unique_civilization": "Khmer"
   },
   {
     "name": "Elite Ballista Elephant",
@@ -3152,7 +3202,8 @@
       "infantry",
       "buildings",
       "naval vessels"
-    ]
+    ],
+    "unique_civilization": "Khmer"
   },
   {
     "name": "Berserk",
@@ -3198,7 +3249,8 @@
       "Light Cavalry"
     ],
     "description": "Viking unique unit. Infantry that slowly heals itself.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Berserk",
+    "unique_civilization": "Vikings"
   },
   {
     "name": "Elite Berserk",
@@ -3242,7 +3294,8 @@
       "Eagle Warriors",
       "buildings",
       "Light Cavalry"
-    ]
+    ],
+    "unique_civilization": "Vikings"
   },
   {
     "name": "Boyar",
@@ -3286,7 +3339,8 @@
       "Skirmishers"
     ],
     "description": "Slavic Unique Unit. Heavily armored cavalry; resistant to melee attack.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Boyar",
+    "unique_civilization": "Slavs"
   },
   {
     "name": "Elite Boyar",
@@ -3328,7 +3382,8 @@
     ],
     "strong_against": [
       "Skirmishers"
-    ]
+    ],
+    "unique_civilization": "Slavs"
   },
   {
     "name": "Camel Archer",
@@ -3365,7 +3420,8 @@
       "Mangudai"
     ],
     "description": "Berber unique unit. Cavalry archer with an attack bonus vs. cavalry archers.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Camel Archer",
+    "unique_civilization": "Berbers"
   },
   {
     "name": "Elite Camel Archer",
@@ -3400,7 +3456,8 @@
     "strong_against": [
       "Cavalry Archers",
       "Mangudai"
-    ]
+    ],
+    "unique_civilization": "Berbers"
   },
   {
     "name": "Cataphract",
@@ -3439,7 +3496,8 @@
       "Light Cavalry"
     ],
     "description": "Byzantine unique unit. Heavily armored cavalry.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Cataphract",
+    "unique_civilization": "Byzantines"
   },
   {
     "name": "Elite Cataphract",
@@ -3476,7 +3534,8 @@
       "infantry",
       "siege weapons",
       "Light Cavalry"
-    ]
+    ],
+    "unique_civilization": "Byzantines"
   },
   {
     "name": "Chu Ko Nu",
@@ -3517,7 +3576,8 @@
       "Rams"
     ],
     "description": "Chinese unique unit. Archer with mediocre range. Fires large number of arrows very quickly.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Chu Ko Nu",
+    "unique_civilization": "Chinese"
   },
   {
     "name": "Elite Chu Ko Nu",
@@ -3556,7 +3616,8 @@
       "Infantry",
       "buildings",
       "Rams"
-    ]
+    ],
+    "unique_civilization": "Chinese"
   },
   {
     "name": "Conquistador",
@@ -3600,7 +3661,8 @@
       "Rams"
     ],
     "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Conquistador",
+    "unique_civilization": "Spanish"
   },
   {
     "name": "Elite Conquistador",
@@ -3642,7 +3704,8 @@
     "strong_against": [
       "Infantry",
       "Rams"
-    ]
+    ],
+    "unique_civilization": "Spanish"
   },
   {
     "name": "Elephant Archer",
@@ -3686,7 +3749,8 @@
       "buildings"
     ],
     "description": "Indian unique unit. Heavy mounted archer.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Elephant Archer",
+    "unique_civilization": "Indians"
   },
   {
     "name": "Elite Elephant Archer",
@@ -3728,7 +3792,8 @@
     "strong_against": [
       "archers",
       "buildings"
-    ]
+    ],
+    "unique_civilization": "Indians"
   },
   {
     "name": "Gbeto",
@@ -3773,7 +3838,8 @@
       "infantry"
     ],
     "description": "Malian unique unit. Quick infantry unit with a high ranged attack.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Gbeto",
+    "unique_civilization": "Malians"
   },
   {
     "name": "Elite Gbeto",
@@ -3816,7 +3882,8 @@
       "Cavalry Archers",
       "Battering Rams",
       "infantry"
-    ]
+    ],
+    "unique_civilization": "Malians"
   },
   {
     "name": "Genoese Crossbowman",
@@ -3856,7 +3923,8 @@
       "infantry"
     ],
     "description": "Italian unique unit. Anti cavalry archery unit.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Genoese Crossbowman",
+    "unique_civilization": "Italians"
   },
   {
     "name": "Elite Genoese Crossbowman",
@@ -3894,7 +3962,8 @@
       "Cavalry",
       "Cavalry Archers",
       "infantry"
-    ]
+    ],
+    "unique_civilization": "Italians"
   },
   {
     "name": "Huskarl",
@@ -3931,7 +4000,8 @@
       "gunpowder units"
     ],
     "description": "Gothic unique unit. Infantry with substantial pierce armor, virtually immune to archer fire.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Huskarl",
+    "unique_civilization": "Goths"
   },
   {
     "name": "Elite Huskarl",
@@ -3966,7 +4036,8 @@
       "Eagle Warriors",
       "Scorpions",
       "gunpowder units"
-    ]
+    ],
+    "unique_civilization": "Goths"
   },
   {
     "name": "Jaguar Warrior",
@@ -4010,7 +4081,8 @@
       "buildings"
     ],
     "description": "Aztec unique unit. Attack bonus vs. other infantry.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Jaguar Warrior",
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Elite Jaguar Warrior",
@@ -4052,7 +4124,8 @@
       "Skirmishers",
       "infantry",
       "buildings"
-    ]
+    ],
+    "unique_civilization": "Aztecs"
   },
   {
     "name": "Janissary",
@@ -4092,7 +4165,8 @@
       "buildings"
     ],
     "description": "Turkish unique unit. Hand Cannoneer with longer range and no minimum range. Powerful close attack, but inaccurate at range.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Janissary",
+    "unique_civilization": "Turks"
   },
   {
     "name": "Elite Janissary",
@@ -4130,7 +4204,8 @@
     "strong_against": [
       "Infantry",
       "buildings"
-    ]
+    ],
+    "unique_civilization": "Turks"
   },
   {
     "name": "Kamayuk",
@@ -4174,7 +4249,8 @@
       "Spearmen"
     ],
     "description": "Inca unique unit. Infantry unit with attack bonus vs. cavalry. Carries a long spear to infiltrate formations.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Kamayuk",
+    "unique_civilization": "Incas"
   },
   {
     "name": "Elite Kamayuk",
@@ -4216,7 +4292,8 @@
       "cavalry",
       "Cavalry Archers",
       "Spearmen"
-    ]
+    ],
+    "unique_civilization": "Incas"
   },
   {
     "name": "Karambit Warrior",
@@ -4266,7 +4343,8 @@
       "Rams"
     ],
     "description": "Malay unique unit. Cheap and weak infantry unit that only takes half a population spot.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Karambit Warrior",
+    "unique_civilization": "Malay"
   },
   {
     "name": "Elite Karambit Warrior",
@@ -4314,7 +4392,8 @@
       "Halberdiers",
       "Eagle Warriors",
       "Rams"
-    ]
+    ],
+    "unique_civilization": "Malay"
   },
   {
     "name": "Longbowman",
@@ -4354,7 +4433,8 @@
       "archers"
     ],
     "description": "British unique unit. Powerful archer with long range.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Longbowman",
+    "unique_civilization": "Britons"
   },
   {
     "name": "Elite Longbowman",
@@ -4392,7 +4472,8 @@
     "strong_against": [
       "Infantry",
       "archers"
-    ]
+    ],
+    "unique_civilization": "Britons"
   },
   {
     "name": "Magyar Huszar",
@@ -4434,7 +4515,8 @@
       "archers"
     ],
     "description": "Magyar unique unit. Light cavalry unit with a bonus vs. siege",
-    "upgrades_to": null
+    "upgrades_to": "Elite Magyar Huszar",
+    "unique_civilization": "Magyars"
   },
   {
     "name": "Elite Magyar Huszar",
@@ -4474,7 +4556,8 @@
     "strong_against": [
       "Siege weapons",
       "archers"
-    ]
+    ],
+    "unique_civilization": "Magyars"
   },
   {
     "name": "Mameluke",
@@ -4511,7 +4594,8 @@
       "cavalry"
     ],
     "description": "Saracen unique unit. Camel with hand-to-hand attack at distance. Excels vs. other mounted units.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Mameluke",
+    "unique_civilization": "Saracens"
   },
   {
     "name": "Elite Mameluke",
@@ -4546,7 +4630,8 @@
       "Siege weapons",
       "Cavalry Archers",
       "cavalry"
-    ]
+    ],
+    "unique_civilization": "Saracens"
   },
   {
     "name": "Mangudai",
@@ -4590,7 +4675,8 @@
       "Rams"
     ],
     "description": "Mongol unique unit. Cavalry archer with attack bonus vs. siege weapons.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Mangudai",
+    "unique_civilization": "Mongols"
   },
   {
     "name": "Elite Mangudai",
@@ -4632,7 +4718,8 @@
       "Infantry",
       "Villagers",
       "Rams"
-    ]
+    ],
+    "unique_civilization": "Mongols"
   },
   {
     "name": "Organ Gun",
@@ -4671,7 +4758,8 @@
       "Skirmishers"
     ],
     "description": "Portuguese unique unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Organ Gun",
+    "unique_civilization": "Portuguese"
   },
   {
     "name": "Elite Organ Gun",
@@ -4708,7 +4796,8 @@
     "strong_against": [
       "Villagers",
       "Skirmishers"
-    ]
+    ],
+    "unique_civilization": "Portuguese"
   },
   {
     "name": "Plumed Archer",
@@ -4750,7 +4839,8 @@
       "Hand Cannoneers"
     ],
     "description": "Mayan unique unit. Strong, fast, well-armored archer with less attack than other archers.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Plumed Archer",
+    "unique_civilization": "Mayans"
   },
   {
     "name": "Elite Plumed Archer",
@@ -4790,7 +4880,8 @@
       "Infantry",
       "archers",
       "Hand Cannoneers"
-    ]
+    ],
+    "unique_civilization": "Mayans"
   },
   {
     "name": "Rattan Archer",
@@ -4827,7 +4918,8 @@
       "infantry"
     ],
     "description": "Vietnamese unique unit. Heavily armored Archer.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Rattan Archer",
+    "unique_civilization": "Vietnamese"
   },
   {
     "name": "Elite Rattan Archer",
@@ -4862,7 +4954,8 @@
     "strong_against": [
       "Archers",
       "infantry"
-    ]
+    ],
+    "unique_civilization": "Vietnamese"
   },
   {
     "name": "Samurai",
@@ -4913,7 +5006,8 @@
       "Throwing Axemen"
     ],
     "description": "Japanese unique unit. Infantry with fast attack.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Samurai",
+    "unique_civilization": "Japanese"
   },
   {
     "name": "Elite Samurai",
@@ -4962,7 +5056,8 @@
       "War Elephants",
       "Mamelukes",
       "Throwing Axemen"
-    ]
+    ],
+    "unique_civilization": "Japanese"
   },
   {
     "name": "Shotel Warrior",
@@ -5004,7 +5099,8 @@
       "Monks"
     ],
     "description": "Ethiopian unique unit. Cheap infantry unit with high creation speed.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Shotel Warrior",
+    "unique_civilization": "Ethiopians"
   },
   {
     "name": "Elite Shotel Warrior",
@@ -5044,7 +5140,8 @@
       "siege weapons",
       "Light Cavalry",
       "Monks"
-    ]
+    ],
+    "unique_civilization": "Ethiopians"
   },
   {
     "name": "Tarkan",
@@ -5084,7 +5181,8 @@
       "buildings"
     ],
     "description": "Hun unique unit. Cavalry with attack bonus vs. buildings.",
-    "upgrades_to": null
+    "upgrades_to": null,
+    "unique_civilization": "Huns"
   },
   {
     "name": "Elite Tarkan",
@@ -5122,7 +5220,8 @@
       "siege weapons",
       "Light Cavalry",
       "buildings"
-    ]
+    ],
+    "unique_civilization": "Huns"
   },
   {
     "name": "Teutonic Knight",
@@ -5165,7 +5264,8 @@
       "buildings"
     ],
     "description": "Teutonic unique unit. Infantry with effective armor and slow but powerful attack.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Teutonic Knight",
+    "unique_civilization": "Teutons"
   },
   {
     "name": "Elite Teutonic Knight",
@@ -5206,7 +5306,8 @@
     "strong_against": [
       "Skirmishers",
       "buildings"
-    ]
+    ],
+    "unique_civilization": "Teutons"
   },
   {
     "name": "Throwing Axeman",
@@ -5255,7 +5356,8 @@
       "Camel Riders"
     ],
     "description": "Frankish unique unit. Infantry with ranged attack.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Throwing Axeman",
+    "unique_civilization": "Franks"
   },
   {
     "name": "Elite Throwing Axeman",
@@ -5302,7 +5404,8 @@
       "Light Cavalry",
       "Huskarls",
       "Camel Riders"
-    ]
+    ],
+    "unique_civilization": "Franks"
   },
   {
     "name": "War Elephant",
@@ -5341,7 +5444,8 @@
       "Buildings"
     ],
     "description": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry.",
-    "upgrades_to": null
+    "upgrades_to": "Elite War Elephant",
+    "unique_civilization": "Persians"
   },
   {
     "name": "Elite War Elephant",
@@ -5378,7 +5482,8 @@
     ],
     "strong_against": [
       "Buildings"
-    ]
+    ],
+    "unique_civilization": "Persians"
   },
   {
     "name": "War Wagon",
@@ -5423,7 +5528,8 @@
       "archers"
     ],
     "description": "Korean unique unit. Heavily armored horse-drawn archer unit.",
-    "upgrades_to": null
+    "upgrades_to": "Elite War Wagon",
+    "unique_civilization": "Koreans"
   },
   {
     "name": "Elite War Wagon",
@@ -5466,7 +5572,8 @@
     "strong_against": [
       "Infantry",
       "archers"
-    ]
+    ],
+    "unique_civilization": "Koreans"
   },
   {
     "name": "Woad Raider",
@@ -5513,7 +5620,8 @@
       "Huskarls"
     ],
     "description": "Celtic unique unit. Exceptionally quick infantry.",
-    "upgrades_to": null
+    "upgrades_to": "Elite Woad Raider",
+    "unique_civilization": "Celts"
   },
   {
     "name": "Elite Woad Raider",
@@ -5558,6 +5666,7 @@
       "buildings",
       "Light Cavalry",
       "Huskarls"
-    ]
+    ],
+    "unique_civilization": "Celts"
   }
 ]
