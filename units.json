@@ -76,7 +76,7 @@
     ],
     "description": "Stronger than Archer. Quick and light.",
     "upgrades_to": "Arbalester",
-    "unique_civilization": "Spanish"
+    "unique_civilization": null
   },
   {
     "name": "Arbalester",
@@ -1631,7 +1631,7 @@
     ],
     "description": "Stronger than War Galley.",
     "upgrades_to": null,
-    "unique_civilization": "Malians"
+    "unique_civilization": null
   },
   {
     "name": "Longboat",
@@ -2441,7 +2441,7 @@
     ],
     "description": "Slow and heavy cavalry.",
     "upgrades_to": "Elite Battle Elephant",
-    "unique_civilization": "Burmese"
+    "unique_civilization": "Burmese, Khmer, Malay, Vietnamese"
   },
   {
     "name": "Elite Battle Elephant",
